@@ -1,5 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://iu60n1ql8p5q"]
-
-[ext_resource type="PackedScene" uid="uid://bfu7m7bh13n2y" path="res://model/weapons/ak-47/scene.gltf" id="1_b3k2u"]
-
-[node name="Sketchfab_Scene" instance=ExtResource("1_b3k2u")]
