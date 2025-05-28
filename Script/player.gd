@@ -23,6 +23,8 @@ var lr_power = 3 #قوة اهتزاز الشاشه يمينا ويسارا عن�
 @onready var camera = $Head/Camera3D  # الوصول لكاميرا الرأس عشان نقدر نتحكم فيها (الدوران، الهد بوب، الفيو)
 @onready var anim_player = $AnimationPlayer
 @onready var raycast = $Head/Camera3D/hand/RayCast3D
+@onready var animation_tree: AnimationTree = $AnimationTree
+
 
 func _ready():
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)  # لما اللعبة تبدأ، نخلي الماوس متحكم فيه ومخفي (مهم للحركة السلسة)
@@ -33,8 +35,13 @@ func fire():
 				var target = raycast.get_collider()
 				if target and target.is_in_group("enemy"):
 					target.health -= damage
-
-		anim_player.play("Fire attack")
+		animation_tree.get("parameters/playback").travel("Fire attack")
+	else:
+		animation_tree.get("parameters/playback").travel("Idle")
+	if Input.is_action_pressed("aim"):
+		animation_tree.get("parameters/playback").travel("Aim")
+	elif Input.is_action_just_released("aim"):
+		animation_tree.get("parameters/playback").travel("CloseAim")
 	else:
 		anim_player.stop()
 
