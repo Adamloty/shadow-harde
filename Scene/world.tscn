@@ -69,4 +69,16 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -21.8344, 2.64193, 20.9922)
 wait_time = 3.0
 autostart = true
 
+[node name="Time" type="Label" parent="."]
+offset_left = 547.0
+offset_right = 1483.0
+offset_bottom = 642.0
+scale = Vector2(0.101385, 0.101385)
+theme_override_font_sizes/font_size = 471
+text = "0:00"
+
+[node name="Timer" type="Timer" parent="."]
+autostart = true
+
 [connection signal="timeout" from="Spawn-Timer" to="." method="_on_spawn_timer_timeout"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

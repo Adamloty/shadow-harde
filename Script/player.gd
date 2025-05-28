@@ -28,10 +28,10 @@ func _ready():
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)  # لما اللعبة تبدأ، نخلي الماوس متحكم فيه ومخفي (مهم للحركة السلسة)
 func fire():
 	if Input.is_action_pressed("fire"):
-		if not anim_player.is_playing():
+		if anim_player.is_playing():
 			if raycast.is_colliding():
 				var target = raycast.get_collider()
-				if target.is_in_group("enemy"):
+				if target and target.is_in_group("enemy"):
 					target.health -= damage
 
 		anim_player.play("Fire attack")
