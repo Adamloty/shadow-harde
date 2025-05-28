@@ -85,7 +85,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.646302, 0)
 
 [node name="RayCast3D" type="RayCast3D" parent="Head/Camera3D"]
 transform = Transform3D(0.972129, 0, -0.234447, 0, 1, 0, 0.234447, 0, 0.972129, 0.225005, -0.0994575, 0)
-target_position = Vector3(0, 0, -200)
+target_position = Vector3(0, 0, -500)
 
 [node name="hand" type="Node3D" parent="Head/Camera3D"]
 transform = Transform3D(0.254189, -0.027165, 1.17245, 0.0895695, 1.19662, 0.00830622, -1.16934, 0.085754, 0.255502, -0.437402, -1.43761, 4.58161)
