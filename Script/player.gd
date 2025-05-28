@@ -2,7 +2,7 @@ extends CharacterBody3D
 
 var damage = 10
 var speed  # السرعة الحالية للاعب (بتتغير بين مشي وركض)
-@export var WALK_SPEED = 5.0  # سرعة المشي العادية
+@export var WALK_SPEED = 5.0 
 @export var SPRINT_SPEED = 8.0  # سرعة الركض (سبرينت)
 @export var JUMP_VELOCITY = 4.8  # قوة القفزة (السرعة اللي بتندفع بيها لفوق)
 @export var SENSITIVITY = 0.003  # حساسية الماوس عشان نتحكم في الدوران
