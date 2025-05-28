@@ -22,7 +22,7 @@ var lr_power = 3 #قوة اهتزاز الشاشه يمينا ويسارا عن�
 @onready var head = $Head # الوصول لعقدة الرأس (head) في المشهد
 @onready var camera = $Head/Camera3D  # الوصول لكاميرا الرأس عشان نقدر نتحكم فيها (الدوران، الهد بوب، الفيو)
 @onready var anim_player = $AnimationPlayer
-@onready var raycast = $Head/Camera3D/RayCast3D
+@onready var raycast = $Head/Camera3D/hand/RayCast3D
 
 func _ready():
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)  # لما اللعبة تبدأ، نخلي الماوس متحكم فيه ومخفي (مهم للحركة السلسة)
