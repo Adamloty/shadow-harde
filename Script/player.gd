@@ -6,7 +6,7 @@ var speed  # السرعة الحالية للاعب (بتتغير بين مشي 
 @export var SPRINT_SPEED = 8.0  # سرعة الركض (سبرينت)
 @export var JUMP_VELOCITY = 4.8  # قوة القفزة (السرعة اللي بتندفع بيها لفوق)
 @export var SENSITIVITY = 0.003  # حساسية الماوس عشان نتحكم في الدوران
-
+var lr_power = 3 #قوة اهتزاز الشاشه يمينا ويسارا عند تحرك الاعب لليمين او اليسار
 # متغيرات الحركة الرأسية اللي بتعمل تأثير الـ head bob
 @export var BOB_FREQ = 2.4  # تردد حركة الهيد بوب (قد إيه بيهتز بسرعة)
 @export var BOB_AMP = 0.08  # مدى حركة الهيد بوب (شدة الهز)
@@ -23,6 +23,7 @@ var speed  # السرعة الحالية للاعب (بتتغير بين مشي 
 @onready var camera = $Head/Camera3D  # الوصول لكاميرا الرأس عشان نقدر نتحكم فيها (الدوران، الهد بوب، الفيو)
 @onready var anim_player = $AnimationPlayer
 @onready var raycast = $Head/Camera3D/RayCast3D
+
 func _ready():
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)  # لما اللعبة تبدأ، نخلي الماوس متحكم فيه ومخفي (مهم للحركة السلسة)
 func fire():
@@ -47,6 +48,7 @@ func _unhandled_input(event):
 		camera.rotation.x = clamp(camera.rotation.x, deg_to_rad(-40), deg_to_rad(60))
 
 func _physics_process(delta):
+	Global.target = global_position
 	fire()
 	# نضيف تأثير الجاذبية على اللاعب لما يكون مش على الأرض (يبقى في الهواء)
 	if not is_on_floor():
@@ -91,6 +93,14 @@ func _physics_process(delta):
 	var target_fov = BASE_FOV + FOV_CHANGE * velocity_clamped
 	camera.fov = lerp(camera.fov, target_fov, delta * 8.0)
 	
+	
+	if input_dir.x != 0:
+		head.rotation.z = lerp(head.rotation.z , (lr_power * delta) * -Input.get_axis("left" , "right") , 0.05)
+	else:
+		head.rotation.z = lerp(head.rotation.z , 0.0, 0.05)
+	
+	
+	
 	# ننفذ حركة اللاعب مع الاصطدامات والفيزياء
 	move_and_slide()
 
@@ -98,5 +108,5 @@ func _headbob(time) -> Vector3:
 	# بنحسب ازاحة بسيطة في مكان الكاميرا عشان نعمل حركة اهتزاز (هيد بوب)
 	var pos = Vector3.ZERO
 	pos.y = sin(time * BOB_FREQ) * BOB_AMP  # اهتزاز طولي في الارتفاع
-	pos.x = cos(time * BOB_FREQ / 2) * BOB_AMP  # اهتزاز جانبي خفيف
+	pos.x = cos(time * BOB_FREQ / 2) * BOB_AMP # اهتزاز جانبي خفيف
 	return pos
