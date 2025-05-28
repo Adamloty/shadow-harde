@@ -88,7 +88,7 @@ transform = Transform3D(0.254189, -0.027165, 1.17245, 0.0895695, 1.19662, 0.0083
 
 [node name="RayCast3D" type="RayCast3D" parent="Head/Camera3D/hand"]
 transform = Transform3D(0.0117115, -0.0170307, -0.83308, 0.232465, 0.800149, -0.0130895, 0.80017, -0.232209, 0.0159959, 3.91287, 0.655966, -0.244169)
-target_position = Vector3(0, 0, -800)
+target_position = Vector3(0, 0, -200)
 
 [node name="Sketchfab_Scene" parent="Head/Camera3D/hand" instance=ExtResource("2_4ntmi")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0884519, 0.455078, -0.654204)
