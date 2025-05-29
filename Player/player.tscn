@@ -5384,22 +5384,10 @@ loop_mode = 1
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath("Head/Camera3D/hand/RayCast3D:enabled")
+tracks/0/path = NodePath("Head/Camera3D/hand:position")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
-"times": PackedFloat32Array(0, 0.1, 0.166667),
-"transitions": PackedFloat32Array(1, 1, 1),
-"update": 1,
-"values": [true, false, true]
-}
-tracks/1/type = "value"
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/path = NodePath("Head/Camera3D/hand:position")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/keys = {
 "times": PackedFloat32Array(0, 0.1),
 "transitions": PackedFloat32Array(1, 1),
 "update": 0,
@@ -8607,3115 +8595,3115 @@ length = 0.001
 tracks/0/type = "value"
 tracks/0/imported = false
 tracks/0/enabled = true
-tracks/0/path = NodePath("Head/Camera3D/hand/RayCast3D:enabled")
+tracks/0/path = NodePath("Head/Camera3D/hand/Gun/bm_magazine_low:position")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
-"update": 1,
-"values": [true]
+"update": 0,
+"values": [Vector3(-0.803945, 0.472958, 0.901721)]
 }
 tracks/1/type = "value"
 tracks/1/imported = false
 tracks/1/enabled = true
-tracks/1/path = NodePath("Head/Camera3D/hand/Gun/bm_magazine_low:position")
+tracks/1/path = NodePath("Head/Camera3D/hand/Gun/bm_magazine_low/bm_magazine_low_Material #44_0:position")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-0.803945, 0.472958, 0.901721)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/2/type = "value"
 tracks/2/imported = false
 tracks/2/enabled = true
-tracks/2/path = NodePath("Head/Camera3D/hand/Gun/bm_magazine_low/bm_magazine_low_Material #44_0:position")
+tracks/2/path = NodePath("Head/Camera3D/hand/Gun/u_dustcoverHolder_low:position")
 tracks/2/interp = 1
 tracks/2/loop_wrap = true
 tracks/2/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-0.91974, 0.736659, 0.901078)]
 }
 tracks/3/type = "value"
 tracks/3/imported = false
 tracks/3/enabled = true
-tracks/3/path = NodePath("Head/Camera3D/hand/Gun/u_dustcoverHolder_low:position")
+tracks/3/path = NodePath("Head/Camera3D/hand/Gun/u_dustcoverHolder_low/u_dustcoverHolder_low_Material #44_0:position")
 tracks/3/interp = 1
 tracks/3/loop_wrap = true
 tracks/3/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-0.91974, 0.736659, 0.901078)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/4/type = "value"
 tracks/4/imported = false
 tracks/4/enabled = true
-tracks/4/path = NodePath("Head/Camera3D/hand/Gun/u_dustcoverHolder_low/u_dustcoverHolder_low_Material #44_0:position")
+tracks/4/path = NodePath("Head/Camera3D/hand/Gun/r_flap_low:position")
 tracks/4/interp = 1
 tracks/4/loop_wrap = true
 tracks/4/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-0.757797, 0.713076, 0.95872)]
 }
 tracks/5/type = "value"
 tracks/5/imported = false
 tracks/5/enabled = true
-tracks/5/path = NodePath("Head/Camera3D/hand/Gun/r_flap_low:position")
+tracks/5/path = NodePath("Head/Camera3D/hand/Gun/r_flap_low/r_flap_low_Material #44_0:position")
 tracks/5/interp = 1
 tracks/5/loop_wrap = true
 tracks/5/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-0.757797, 0.713076, 0.95872)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/6/type = "value"
 tracks/6/imported = false
 tracks/6/enabled = true
-tracks/6/path = NodePath("Head/Camera3D/hand/Gun/r_flap_low/r_flap_low_Material #44_0:position")
+tracks/6/path = NodePath("Head/Camera3D/hand/Gun/r_upperCylinderHole_low:position")
 tracks/6/interp = 1
 tracks/6/loop_wrap = true
 tracks/6/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-0.286798, 0.752872, 0.902024)]
 }
 tracks/7/type = "value"
 tracks/7/imported = false
 tracks/7/enabled = true
-tracks/7/path = NodePath("Head/Camera3D/hand/Gun/r_upperCylinderHole_low:position")
+tracks/7/path = NodePath("Head/Camera3D/hand/Gun/r_upperCylinderHole_low/r_upperCylinderHole_low_Material #44_0:position")
 tracks/7/interp = 1
 tracks/7/loop_wrap = true
 tracks/7/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-0.286798, 0.752872, 0.902024)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/8/type = "value"
 tracks/8/imported = false
 tracks/8/enabled = true
-tracks/8/path = NodePath("Head/Camera3D/hand/Gun/r_upperCylinderHole_low/r_upperCylinderHole_low_Material #44_0:position")
+tracks/8/path = NodePath("Head/Camera3D/hand/Gun/l_stockWood_low:position")
 tracks/8/interp = 1
 tracks/8/loop_wrap = true
 tracks/8/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.52146, 0.6201, 0.901078)]
 }
 tracks/9/type = "value"
 tracks/9/imported = false
 tracks/9/enabled = true
-tracks/9/path = NodePath("Head/Camera3D/hand/Gun/l_stockWood_low:position")
+tracks/9/path = NodePath("Head/Camera3D/hand/Gun/l_stockWood_low/l_stockWood_low_Material #44_0:position")
 tracks/9/interp = 1
 tracks/9/loop_wrap = true
 tracks/9/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.52146, 0.6201, 0.901078)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/10/type = "value"
 tracks/10/imported = false
 tracks/10/enabled = true
-tracks/10/path = NodePath("Head/Camera3D/hand/Gun/l_stockWood_low/l_stockWood_low_Material #44_0:position")
+tracks/10/path = NodePath("Head/Camera3D/hand/Gun/m_safetyswitch_low:position")
 tracks/10/interp = 1
 tracks/10/loop_wrap = true
 tracks/10/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.12415, 0.67692, 0.94664)]
 }
 tracks/11/type = "value"
 tracks/11/imported = false
 tracks/11/enabled = true
-tracks/11/path = NodePath("Head/Camera3D/hand/Gun/m_safetyswitch_low:position")
+tracks/11/path = NodePath("Head/Camera3D/hand/Gun/m_safetyswitch_low/m_safetyswitch_low_Material #44_0:position")
 tracks/11/interp = 1
 tracks/11/loop_wrap = true
 tracks/11/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.12415, 0.67692, 0.94664)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/12/type = "value"
 tracks/12/imported = false
 tracks/12/enabled = true
-tracks/12/path = NodePath("Head/Camera3D/hand/Gun/m_safetyswitch_low/m_safetyswitch_low_Material #44_0:position")
+tracks/12/path = NodePath("Head/Camera3D/hand/Gun/bm_triggerBasePart_low:position")
 tracks/12/interp = 1
 tracks/12/loop_wrap = true
 tracks/12/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-0.970303, 0.582844, 0.900389)]
 }
 tracks/13/type = "value"
 tracks/13/imported = false
 tracks/13/enabled = true
-tracks/13/path = NodePath("Head/Camera3D/hand/Gun/bm_triggerBasePart_low:position")
+tracks/13/path = NodePath("Head/Camera3D/hand/Gun/bm_triggerBasePart_low/bm_triggerBasePart_low_Material #44_0:position")
 tracks/13/interp = 1
 tracks/13/loop_wrap = true
 tracks/13/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-0.970303, 0.582844, 0.900389)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/14/type = "value"
 tracks/14/imported = false
 tracks/14/enabled = true
-tracks/14/path = NodePath("Head/Camera3D/hand/Gun/bm_triggerBasePart_low/bm_triggerBasePart_low_Material #44_0:position")
+tracks/14/path = NodePath("Head/Camera3D/hand/Gun/bl_grip_low:position")
 tracks/14/interp = 1
 tracks/14/loop_wrap = true
 tracks/14/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.19521, 0.528347, 0.901077)]
 }
 tracks/15/type = "value"
 tracks/15/imported = false
 tracks/15/enabled = true
-tracks/15/path = NodePath("Head/Camera3D/hand/Gun/bl_grip_low:position")
+tracks/15/path = NodePath("Head/Camera3D/hand/Gun/bl_grip_low/bl_grip_low_Material #44_0:position")
 tracks/15/interp = 1
 tracks/15/loop_wrap = true
 tracks/15/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.19521, 0.528347, 0.901077)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/16/type = "value"
 tracks/16/imported = false
 tracks/16/enabled = true
-tracks/16/path = NodePath("Head/Camera3D/hand/Gun/bl_grip_low/bl_grip_low_Material #44_0:position")
+tracks/16/path = NodePath("Head/Camera3D/hand/Gun/r_buttons_high:position")
 tracks/16/interp = 1
 tracks/16/loop_wrap = true
 tracks/16/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-0.731132, 0.716901, 0.875974)]
 }
 tracks/17/type = "value"
 tracks/17/imported = false
 tracks/17/enabled = true
-tracks/17/path = NodePath("Head/Camera3D/hand/Gun/r_buttons_high:position")
+tracks/17/path = NodePath("Head/Camera3D/hand/Gun/r_buttons_high/r_buttons_high_Material #44_0:position")
 tracks/17/interp = 1
 tracks/17/loop_wrap = true
 tracks/17/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-0.731132, 0.716901, 0.875974)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/18/type = "value"
 tracks/18/imported = false
 tracks/18/enabled = true
-tracks/18/path = NodePath("Head/Camera3D/hand/Gun/r_buttons_high/r_buttons_high_Material #44_0:position")
+tracks/18/path = NodePath("Head/Camera3D/hand/Gun/ls2_button3_low:position")
 tracks/18/interp = 1
 tracks/18/loop_wrap = true
 tracks/18/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-0.833462, 0.655554, 0.861919)]
 }
 tracks/19/type = "value"
 tracks/19/imported = false
 tracks/19/enabled = true
-tracks/19/path = NodePath("Head/Camera3D/hand/Gun/ls2_button3_low:position")
+tracks/19/path = NodePath("Head/Camera3D/hand/Gun/ls2_button3_low/ls2_button3_low_Material #44_0:position")
 tracks/19/interp = 1
 tracks/19/loop_wrap = true
 tracks/19/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-0.833462, 0.655554, 0.861919)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/20/type = "value"
 tracks/20/imported = false
 tracks/20/enabled = true
-tracks/20/path = NodePath("Head/Camera3D/hand/Gun/ls2_button3_low/ls2_button3_low_Material #44_0:position")
+tracks/20/path = NodePath("Head/Camera3D/hand/Gun/ls2_button2_low:position")
 tracks/20/interp = 1
 tracks/20/loop_wrap = true
 tracks/20/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-0.767491, 0.692406, 0.861919)]
 }
 tracks/21/type = "value"
 tracks/21/imported = false
 tracks/21/enabled = true
-tracks/21/path = NodePath("Head/Camera3D/hand/Gun/ls2_button2_low:position")
+tracks/21/path = NodePath("Head/Camera3D/hand/Gun/ls2_button2_low/ls2_button2_low_Material #44_0:position")
 tracks/21/interp = 1
 tracks/21/loop_wrap = true
 tracks/21/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-0.767491, 0.692406, 0.861919)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/22/type = "value"
 tracks/22/imported = false
 tracks/22/enabled = true
-tracks/22/path = NodePath("Head/Camera3D/hand/Gun/ls2_button2_low/ls2_button2_low_Material #44_0:position")
+tracks/22/path = NodePath("Head/Camera3D/hand/Gun/r_button3_low:position")
 tracks/22/interp = 1
 tracks/22/loop_wrap = true
 tracks/22/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-0.732628, 0.692406, 0.940629)]
 }
 tracks/23/type = "value"
 tracks/23/imported = false
 tracks/23/enabled = true
-tracks/23/path = NodePath("Head/Camera3D/hand/Gun/r_button3_low:position")
+tracks/23/path = NodePath("Head/Camera3D/hand/Gun/r_button3_low/r_button3_low_Material #44_0:position")
 tracks/23/interp = 1
 tracks/23/loop_wrap = true
 tracks/23/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-0.732628, 0.692406, 0.940629)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/24/type = "value"
 tracks/24/imported = false
 tracks/24/enabled = true
-tracks/24/path = NodePath("Head/Camera3D/hand/Gun/r_button3_low/r_button3_low_Material #44_0:position")
+tracks/24/path = NodePath("Head/Camera3D/hand/Gun/l_button2_low:position")
 tracks/24/interp = 1
 tracks/24/loop_wrap = true
 tracks/24/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.16862, 0.664201, 0.940629)]
 }
 tracks/25/type = "value"
 tracks/25/imported = false
 tracks/25/enabled = true
-tracks/25/path = NodePath("Head/Camera3D/hand/Gun/l_button2_low:position")
+tracks/25/path = NodePath("Head/Camera3D/hand/Gun/l_button2_low/l_button2_low_Material #44_0:position")
 tracks/25/interp = 1
 tracks/25/loop_wrap = true
 tracks/25/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.16862, 0.664201, 0.940629)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/26/type = "value"
 tracks/26/imported = false
 tracks/26/enabled = true
-tracks/26/path = NodePath("Head/Camera3D/hand/Gun/l_button2_low/l_button2_low_Material #44_0:position")
+tracks/26/path = NodePath("Head/Camera3D/hand/Gun/l_button1_low:position")
 tracks/26/interp = 1
 tracks/26/loop_wrap = true
 tracks/26/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.23582, 0.692274, 0.940629)]
 }
 tracks/27/type = "value"
 tracks/27/imported = false
 tracks/27/enabled = true
-tracks/27/path = NodePath("Head/Camera3D/hand/Gun/l_button1_low:position")
+tracks/27/path = NodePath("Head/Camera3D/hand/Gun/l_button1_low/l_button1_low_Material #44_0:position")
 tracks/27/interp = 1
 tracks/27/loop_wrap = true
 tracks/27/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.23582, 0.692274, 0.940629)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/28/type = "value"
 tracks/28/imported = false
 tracks/28/enabled = true
-tracks/28/path = NodePath("Head/Camera3D/hand/Gun/l_button1_low/l_button1_low_Material #44_0:position")
+tracks/28/path = NodePath("Head/Camera3D/hand/Gun/r_button2_low:position")
 tracks/28/interp = 1
 tracks/28/loop_wrap = true
 tracks/28/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-0.768436, 0.691664, 0.94054)]
 }
 tracks/29/type = "value"
 tracks/29/imported = false
 tracks/29/enabled = true
-tracks/29/path = NodePath("Head/Camera3D/hand/Gun/r_button2_low:position")
+tracks/29/path = NodePath("Head/Camera3D/hand/Gun/r_button2_low/r_button2_low_Material #44_0:position")
 tracks/29/interp = 1
 tracks/29/loop_wrap = true
 tracks/29/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-0.768436, 0.691664, 0.94054)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/30/type = "value"
 tracks/30/imported = false
 tracks/30/enabled = true
-tracks/30/path = NodePath("Head/Camera3D/hand/Gun/r_button2_low/r_button2_low_Material #44_0:position")
+tracks/30/path = NodePath("Head/Camera3D/hand/Gun/ls2_button1_low:position")
 tracks/30/interp = 1
 tracks/30/loop_wrap = true
 tracks/30/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-0.731994, 0.691461, 0.862008)]
 }
 tracks/31/type = "value"
 tracks/31/imported = false
 tracks/31/enabled = true
-tracks/31/path = NodePath("Head/Camera3D/hand/Gun/ls2_button1_low:position")
+tracks/31/path = NodePath("Head/Camera3D/hand/Gun/ls2_button1_low/ls2_button1_low_Material #44_0:position")
 tracks/31/interp = 1
 tracks/31/loop_wrap = true
 tracks/31/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-0.731994, 0.691461, 0.862008)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/32/type = "value"
 tracks/32/imported = false
 tracks/32/enabled = true
-tracks/32/path = NodePath("Head/Camera3D/hand/Gun/ls2_button1_low/ls2_button1_low_Material #44_0:position")
+tracks/32/path = NodePath("Head/Camera3D/hand/Gun/r_button1_low:position")
 tracks/32/interp = 1
 tracks/32/loop_wrap = true
 tracks/32/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-0.834154, 0.655849, 0.94054)]
 }
 tracks/33/type = "value"
 tracks/33/imported = false
 tracks/33/enabled = true
-tracks/33/path = NodePath("Head/Camera3D/hand/Gun/r_button1_low:position")
+tracks/33/path = NodePath("Head/Camera3D/hand/Gun/r_button1_low/r_button1_low_Material #44_0:position")
 tracks/33/interp = 1
 tracks/33/loop_wrap = true
 tracks/33/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-0.834154, 0.655849, 0.94054)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/34/type = "value"
 tracks/34/imported = false
 tracks/34/enabled = true
-tracks/34/path = NodePath("Head/Camera3D/hand/Gun/r_button1_low/r_button1_low_Material #44_0:position")
+tracks/34/path = NodePath("Head/Camera3D/hand/Gun/rs2_button2_low:position")
 tracks/34/interp = 1
 tracks/34/loop_wrap = true
 tracks/34/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.16856, 0.664099, 0.861986)]
 }
 tracks/35/type = "value"
 tracks/35/imported = false
 tracks/35/enabled = true
-tracks/35/path = NodePath("Head/Camera3D/hand/Gun/rs2_button2_low:position")
+tracks/35/path = NodePath("Head/Camera3D/hand/Gun/rs2_button2_low/rs2_button2_low_Material #44_0:position")
 tracks/35/interp = 1
 tracks/35/loop_wrap = true
 tracks/35/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.16856, 0.664099, 0.861986)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/36/type = "value"
 tracks/36/imported = false
 tracks/36/enabled = true
-tracks/36/path = NodePath("Head/Camera3D/hand/Gun/rs2_button2_low/rs2_button2_low_Material #44_0:position")
+tracks/36/path = NodePath("Head/Camera3D/hand/Gun/rs2_button1_low:position")
 tracks/36/interp = 1
 tracks/36/loop_wrap = true
 tracks/36/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.23707, 0.690801, 0.861986)]
 }
 tracks/37/type = "value"
 tracks/37/imported = false
 tracks/37/enabled = true
-tracks/37/path = NodePath("Head/Camera3D/hand/Gun/rs2_button1_low:position")
+tracks/37/path = NodePath("Head/Camera3D/hand/Gun/rs2_button1_low/rs2_button1_low_Material #44_0:position")
 tracks/37/interp = 1
 tracks/37/loop_wrap = true
 tracks/37/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.23707, 0.690801, 0.861986)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/38/type = "value"
 tracks/38/imported = false
 tracks/38/enabled = true
-tracks/38/path = NodePath("Head/Camera3D/hand/Gun/rs2_button1_low/rs2_button1_low_Material #44_0:position")
+tracks/38/path = NodePath("Head/Camera3D/hand/Gun/m_button2_low:position")
 tracks/38/interp = 1
 tracks/38/loop_wrap = true
 tracks/38/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-0.993778, 0.649982, 0.861501)]
 }
 tracks/39/type = "value"
 tracks/39/imported = false
 tracks/39/enabled = true
-tracks/39/path = NodePath("Head/Camera3D/hand/Gun/m_button2_low:position")
+tracks/39/path = NodePath("Head/Camera3D/hand/Gun/m_button2_low/m_button2_low_Material #44_0:position")
 tracks/39/interp = 1
 tracks/39/loop_wrap = true
 tracks/39/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-0.993778, 0.649982, 0.861501)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/40/type = "value"
 tracks/40/imported = false
 tracks/40/enabled = true
-tracks/40/path = NodePath("Head/Camera3D/hand/Gun/m_button2_low/m_button2_low_Material #44_0:position")
+tracks/40/path = NodePath("Head/Camera3D/hand/Gun/m_button3_low:position")
 tracks/40/interp = 1
 tracks/40/loop_wrap = true
 tracks/40/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-0.960898, 0.644122, 0.861501)]
 }
 tracks/41/type = "value"
 tracks/41/imported = false
 tracks/41/enabled = true
-tracks/41/path = NodePath("Head/Camera3D/hand/Gun/m_button3_low:position")
+tracks/41/path = NodePath("Head/Camera3D/hand/Gun/m_button3_low/m_button3_low_Material #44_0:position")
 tracks/41/interp = 1
 tracks/41/loop_wrap = true
 tracks/41/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-0.960898, 0.644122, 0.861501)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/42/type = "value"
 tracks/42/imported = false
 tracks/42/enabled = true
-tracks/42/path = NodePath("Head/Camera3D/hand/Gun/m_button3_low/m_button3_low_Material #44_0:position")
+tracks/42/path = NodePath("Head/Camera3D/hand/Gun/m_button1_low:position")
 tracks/42/interp = 1
 tracks/42/loop_wrap = true
 tracks/42/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.07528, 0.634601, 0.861501)]
 }
 tracks/43/type = "value"
 tracks/43/imported = false
 tracks/43/enabled = true
-tracks/43/path = NodePath("Head/Camera3D/hand/Gun/m_button1_low:position")
+tracks/43/path = NodePath("Head/Camera3D/hand/Gun/m_button1_low/m_button1_low_Material #44_0:position")
 tracks/43/interp = 1
 tracks/43/loop_wrap = true
 tracks/43/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.07528, 0.634601, 0.861501)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/44/type = "value"
 tracks/44/imported = false
 tracks/44/enabled = true
-tracks/44/path = NodePath("Head/Camera3D/hand/Gun/m_button1_low/m_button1_low_Material #44_0:position")
+tracks/44/path = NodePath("Head/Camera3D/hand/Gun/r_numberSwitch_low:position")
 tracks/44/interp = 1
 tracks/44/loop_wrap = true
 tracks/44/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-0.627701, 0.782786, 0.927879)]
 }
 tracks/45/type = "value"
 tracks/45/imported = false
 tracks/45/enabled = true
-tracks/45/path = NodePath("Head/Camera3D/hand/Gun/r_numberSwitch_low:position")
+tracks/45/path = NodePath("Head/Camera3D/hand/Gun/r_numberSwitch_low/r_numberSwitch_low_Material #44_0:position")
 tracks/45/interp = 1
 tracks/45/loop_wrap = true
 tracks/45/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-0.627701, 0.782786, 0.927879)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/46/type = "value"
 tracks/46/imported = false
 tracks/46/enabled = true
-tracks/46/path = NodePath("Head/Camera3D/hand/Gun/r_numberSwitch_low/r_numberSwitch_low_Material #44_0:position")
+tracks/46/path = NodePath("Head/Camera3D/hand/Gun/r_numberSwitchButton_low:position")
 tracks/46/interp = 1
 tracks/46/loop_wrap = true
 tracks/46/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-0.627558, 0.782436, 0.926952)]
 }
 tracks/47/type = "value"
 tracks/47/imported = false
 tracks/47/enabled = true
-tracks/47/path = NodePath("Head/Camera3D/hand/Gun/r_numberSwitchButton_low:position")
+tracks/47/path = NodePath("Head/Camera3D/hand/Gun/r_numberSwitchButton_low/r_numberSwitchButton_low_Material #44_0:position")
 tracks/47/interp = 1
 tracks/47/loop_wrap = true
 tracks/47/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-0.627558, 0.782436, 0.926952)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/48/type = "value"
 tracks/48/imported = false
 tracks/48/enabled = true
-tracks/48/path = NodePath("Head/Camera3D/hand/Gun/r_numberSwitchButton_low/r_numberSwitchButton_low_Material #44_0:position")
+tracks/48/path = NodePath("Head/Camera3D/hand/Gun/ur_numberHolder1:position")
 tracks/48/interp = 1
 tracks/48/loop_wrap = true
 tracks/48/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-0.729643, 0.795172, 0.901438)]
 }
 tracks/49/type = "value"
 tracks/49/imported = false
 tracks/49/enabled = true
-tracks/49/path = NodePath("Head/Camera3D/hand/Gun/ur_numberHolder1:position")
+tracks/49/path = NodePath("Head/Camera3D/hand/Gun/ur_numberHolder1/ur_numberHolder1_Material #44_0:position")
 tracks/49/interp = 1
 tracks/49/loop_wrap = true
 tracks/49/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-0.729643, 0.795172, 0.901438)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/50/type = "value"
 tracks/50/imported = false
 tracks/50/enabled = true
-tracks/50/path = NodePath("Head/Camera3D/hand/Gun/ur_numberHolder1/ur_numberHolder1_Material #44_0:position")
+tracks/50/path = NodePath("Head/Camera3D/hand/Gun/r_numberBaseCircle_low:position")
 tracks/50/interp = 1
 tracks/50/loop_wrap = true
 tracks/50/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-0.629101, 0.78208, 0.882038)]
 }
 tracks/51/type = "value"
 tracks/51/imported = false
 tracks/51/enabled = true
-tracks/51/path = NodePath("Head/Camera3D/hand/Gun/r_numberBaseCircle_low:position")
+tracks/51/path = NodePath("Head/Camera3D/hand/Gun/r_numberBaseCircle_low/r_numberBaseCircle_low_Material #44_0:position")
 tracks/51/interp = 1
 tracks/51/loop_wrap = true
 tracks/51/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-0.629101, 0.78208, 0.882038)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/52/type = "value"
 tracks/52/imported = false
 tracks/52/enabled = true
-tracks/52/path = NodePath("Head/Camera3D/hand/Gun/r_numberBaseCircle_low/r_numberBaseCircle_low_Material #44_0:position")
+tracks/52/path = NodePath("Head/Camera3D/hand/Gun/ur_woodUpper_low:position")
 tracks/52/interp = 1
 tracks/52/loop_wrap = true
 tracks/52/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-0.488124, 0.758147, 0.901077)]
 }
 tracks/53/type = "value"
 tracks/53/imported = false
 tracks/53/enabled = true
-tracks/53/path = NodePath("Head/Camera3D/hand/Gun/ur_woodUpper_low:position")
+tracks/53/path = NodePath("Head/Camera3D/hand/Gun/ur_woodUpper_low/ur_woodUpper_low_Material #44_0:position")
 tracks/53/interp = 1
 tracks/53/loop_wrap = true
 tracks/53/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-0.488124, 0.758147, 0.901077)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/54/type = "value"
 tracks/54/imported = false
 tracks/54/enabled = true
-tracks/54/path = NodePath("Head/Camera3D/hand/Gun/ur_woodUpper_low/ur_woodUpper_low_Material #44_0:position")
+tracks/54/path = NodePath("Head/Camera3D/hand/Gun/r_Connector_low:position")
 tracks/54/interp = 1
 tracks/54/loop_wrap = true
 tracks/54/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-0.198777, 0.728746, 0.901078)]
 }
 tracks/55/type = "value"
 tracks/55/imported = false
 tracks/55/enabled = true
-tracks/55/path = NodePath("Head/Camera3D/hand/Gun/r_Connector_low:position")
+tracks/55/path = NodePath("Head/Camera3D/hand/Gun/r_Connector_low/r_Connector_low_Material #44_0:position")
 tracks/55/interp = 1
 tracks/55/loop_wrap = true
 tracks/55/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-0.198777, 0.728746, 0.901078)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/56/type = "value"
 tracks/56/imported = false
 tracks/56/enabled = true
-tracks/56/path = NodePath("Head/Camera3D/hand/Gun/r_Connector_low/r_Connector_low_Material #44_0:position")
+tracks/56/path = NodePath("Head/Camera3D/hand/Gun/r_woodholderLowerRight_low:position")
 tracks/56/interp = 1
 tracks/56/loop_wrap = true
 tracks/56/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-0.364558, 0.690095, 0.895862)]
 }
 tracks/57/type = "value"
 tracks/57/imported = false
 tracks/57/enabled = true
-tracks/57/path = NodePath("Head/Camera3D/hand/Gun/r_woodholderLowerRight_low:position")
+tracks/57/path = NodePath("Head/Camera3D/hand/Gun/r_woodholderLowerRight_low/r_woodholderLowerRight_low_Material #44_0:position")
 tracks/57/interp = 1
 tracks/57/loop_wrap = true
 tracks/57/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-0.364558, 0.690095, 0.895862)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/58/type = "value"
 tracks/58/imported = false
 tracks/58/enabled = true
-tracks/58/path = NodePath("Head/Camera3D/hand/Gun/r_woodholderLowerRight_low/r_woodholderLowerRight_low_Material #44_0:position")
+tracks/58/path = NodePath("Head/Camera3D/hand/Gun/r_barrelAim_low:position")
 tracks/58/interp = 1
 tracks/58/loop_wrap = true
 tracks/58/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(0.034811, 0.736192, 0.901081)]
 }
 tracks/59/type = "value"
 tracks/59/imported = false
 tracks/59/enabled = true
-tracks/59/path = NodePath("Head/Camera3D/hand/Gun/r_barrelAim_low:position")
+tracks/59/path = NodePath("Head/Camera3D/hand/Gun/r_barrelAim_low/r_barrelAim_low_Material #44_0:position")
 tracks/59/interp = 1
 tracks/59/loop_wrap = true
 tracks/59/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0.034811, 0.736192, 0.901081)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/60/type = "value"
 tracks/60/imported = false
 tracks/60/enabled = true
-tracks/60/path = NodePath("Head/Camera3D/hand/Gun/r_barrelAim_low/r_barrelAim_low_Material #44_0:position")
+tracks/60/path = NodePath("Head/Camera3D/hand/Gun/r_barrelAimCylinder_low:position")
 tracks/60/interp = 1
 tracks/60/loop_wrap = true
 tracks/60/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(0.0419772, 0.768942, 0.901081)]
 }
 tracks/61/type = "value"
 tracks/61/imported = false
 tracks/61/enabled = true
-tracks/61/path = NodePath("Head/Camera3D/hand/Gun/r_barrelAimCylinder_low:position")
+tracks/61/path = NodePath("Head/Camera3D/hand/Gun/r_barrelAimCylinder_low/r_barrelAimCylinder_low_Material #44_0:position")
 tracks/61/interp = 1
 tracks/61/loop_wrap = true
 tracks/61/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0.0419772, 0.768942, 0.901081)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/62/type = "value"
 tracks/62/imported = false
 tracks/62/enabled = true
-tracks/62/path = NodePath("Head/Camera3D/hand/Gun/r_barrelAimCylinder_low/r_barrelAimCylinder_low_Material #44_0:position")
+tracks/62/path = NodePath("Head/Camera3D/hand/Gun/r_barrelEnd_low:position")
 tracks/62/interp = 1
 tracks/62/loop_wrap = true
 tracks/62/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(0.0929844, 0.70411, 0.901078)]
 }
 tracks/63/type = "value"
 tracks/63/imported = false
 tracks/63/enabled = true
-tracks/63/path = NodePath("Head/Camera3D/hand/Gun/r_barrelEnd_low:position")
+tracks/63/path = NodePath("Head/Camera3D/hand/Gun/r_barrelEnd_low/r_barrelEnd_low_Material #44_0:position")
 tracks/63/interp = 1
 tracks/63/loop_wrap = true
 tracks/63/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0.0929844, 0.70411, 0.901078)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/64/type = "value"
 tracks/64/imported = false
 tracks/64/enabled = true
-tracks/64/path = NodePath("Head/Camera3D/hand/Gun/r_barrelEnd_low/r_barrelEnd_low_Material #44_0:position")
+tracks/64/path = NodePath("Head/Camera3D/hand/Gun/r_barrelHolder_low:position")
 tracks/64/interp = 1
 tracks/64/loop_wrap = true
 tracks/64/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-0.340732, 0.700756, 0.901164)]
 }
 tracks/65/type = "value"
 tracks/65/imported = false
 tracks/65/enabled = true
-tracks/65/path = NodePath("Head/Camera3D/hand/Gun/r_barrelHolder_low:position")
+tracks/65/path = NodePath("Head/Camera3D/hand/Gun/r_barrelHolder_low/r_barrelHolder_low_Material #44_0:position")
 tracks/65/interp = 1
 tracks/65/loop_wrap = true
 tracks/65/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-0.340732, 0.700756, 0.901164)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/66/type = "value"
 tracks/66/imported = false
 tracks/66/enabled = true
-tracks/66/path = NodePath("Head/Camera3D/hand/Gun/r_barrelHolder_low/r_barrelHolder_low_Material #44_0:position")
+tracks/66/path = NodePath("Head/Camera3D/hand/Gun/bm_triggerBase_low:position")
 tracks/66/interp = 1
 tracks/66/loop_wrap = true
 tracks/66/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.02914, 0.593135, 0.90085)]
 }
 tracks/67/type = "value"
 tracks/67/imported = false
 tracks/67/enabled = true
-tracks/67/path = NodePath("Head/Camera3D/hand/Gun/bm_triggerBase_low:position")
+tracks/67/path = NodePath("Head/Camera3D/hand/Gun/bm_triggerBase_low/bm_triggerBase_low_Material #44_0:position")
 tracks/67/interp = 1
 tracks/67/loop_wrap = true
 tracks/67/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.02914, 0.593135, 0.90085)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/68/type = "value"
 tracks/68/imported = false
 tracks/68/enabled = true
-tracks/68/path = NodePath("Head/Camera3D/hand/Gun/bm_triggerBase_low/bm_triggerBase_low_Material #44_0:position")
+tracks/68/path = NodePath("Head/Camera3D/hand/Gun/r_lowerCylinder_low:position")
 tracks/68/interp = 1
 tracks/68/loop_wrap = true
 tracks/68/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-0.169253, 0.670383, 0.900442)]
 }
 tracks/69/type = "value"
 tracks/69/imported = false
 tracks/69/enabled = true
-tracks/69/path = NodePath("Head/Camera3D/hand/Gun/r_lowerCylinder_low:position")
+tracks/69/path = NodePath("Head/Camera3D/hand/Gun/r_lowerCylinder_low/r_lowerCylinder_low_Material #44_0:position")
 tracks/69/interp = 1
 tracks/69/loop_wrap = true
 tracks/69/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-0.169253, 0.670383, 0.900442)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/70/type = "value"
 tracks/70/imported = false
 tracks/70/enabled = true
-tracks/70/path = NodePath("Head/Camera3D/hand/Gun/r_lowerCylinder_low/r_lowerCylinder_low_Material #44_0:position")
+tracks/70/path = NodePath("Head/Camera3D/hand/Gun/r_barrel_low:position")
 tracks/70/interp = 1
 tracks/70/loop_wrap = true
 tracks/70/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-0.150646, 0.700756, 0.901078)]
 }
 tracks/71/type = "value"
 tracks/71/imported = false
 tracks/71/enabled = true
-tracks/71/path = NodePath("Head/Camera3D/hand/Gun/r_barrel_low:position")
+tracks/71/path = NodePath("Head/Camera3D/hand/Gun/r_barrel_low/r_barrel_low_Material #44_0:position")
 tracks/71/interp = 1
 tracks/71/loop_wrap = true
 tracks/71/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-0.150646, 0.700756, 0.901078)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/72/type = "value"
 tracks/72/imported = false
 tracks/72/enabled = true
-tracks/72/path = NodePath("Head/Camera3D/hand/Gun/r_barrel_low/r_barrel_low_Material #44_0:position")
+tracks/72/path = NodePath("Head/Camera3D/hand/Gun/l_stockMetal_low:position")
 tracks/72/interp = 1
 tracks/72/loop_wrap = true
 tracks/72/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.77894, 0.6201, 0.901078)]
 }
 tracks/73/type = "value"
 tracks/73/imported = false
 tracks/73/enabled = true
-tracks/73/path = NodePath("Head/Camera3D/hand/Gun/l_stockMetal_low:position")
+tracks/73/path = NodePath("Head/Camera3D/hand/Gun/l_stockMetal_low/l_stockMetal_low_Material #44_0:position")
 tracks/73/interp = 1
 tracks/73/loop_wrap = true
 tracks/73/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.77894, 0.6201, 0.901078)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/74/type = "value"
 tracks/74/imported = false
 tracks/74/enabled = true
-tracks/74/path = NodePath("Head/Camera3D/hand/Gun/l_stockMetal_low/l_stockMetal_low_Material #44_0:position")
+tracks/74/path = NodePath("Head/Camera3D/hand/Gun/l_stockBase_low:position")
 tracks/74/interp = 1
 tracks/74/loop_wrap = true
 tracks/74/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.29723, 0.699388, 0.901078)]
 }
 tracks/75/type = "value"
 tracks/75/imported = false
 tracks/75/enabled = true
-tracks/75/path = NodePath("Head/Camera3D/hand/Gun/l_stockBase_low:position")
+tracks/75/path = NodePath("Head/Camera3D/hand/Gun/l_stockBase_low/l_stockBase_low_Material #44_0:position")
 tracks/75/interp = 1
 tracks/75/loop_wrap = true
 tracks/75/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.29723, 0.699388, 0.901078)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/76/type = "value"
 tracks/76/imported = false
 tracks/76/enabled = true
-tracks/76/path = NodePath("Head/Camera3D/hand/Gun/l_stockBase_low/l_stockBase_low_Material #44_0:position")
+tracks/76/path = NodePath("Head/Camera3D/hand/Gun/bm_magazineBottom_low:position")
 tracks/76/interp = 1
 tracks/76/loop_wrap = true
 tracks/76/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-0.69172, 0.317523, 0.900415)]
 }
 tracks/77/type = "value"
 tracks/77/imported = false
 tracks/77/enabled = true
-tracks/77/path = NodePath("Head/Camera3D/hand/Gun/bm_magazineBottom_low:position")
+tracks/77/path = NodePath("Head/Camera3D/hand/Gun/bm_magazineBottom_low/bm_magazineBottom_low_Material #44_0:position")
 tracks/77/interp = 1
 tracks/77/loop_wrap = true
 tracks/77/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-0.69172, 0.317523, 0.900415)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/78/type = "value"
 tracks/78/imported = false
 tracks/78/enabled = true
-tracks/78/path = NodePath("Head/Camera3D/hand/Gun/bm_magazineBottom_low/bm_magazineBottom_low_Material #44_0:position")
+tracks/78/path = NodePath("Head/Camera3D/hand/Gun/r_woodholderLeft_low:position")
 tracks/78/interp = 1
 tracks/78/loop_wrap = true
 tracks/78/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-0.608356, 0.7584, 0.901078)]
 }
 tracks/79/type = "value"
 tracks/79/imported = false
 tracks/79/enabled = true
-tracks/79/path = NodePath("Head/Camera3D/hand/Gun/r_woodholderLeft_low:position")
+tracks/79/path = NodePath("Head/Camera3D/hand/Gun/r_woodholderLeft_low/r_woodholderLeft_low_Material #44_0:position")
 tracks/79/interp = 1
 tracks/79/loop_wrap = true
 tracks/79/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-0.608356, 0.7584, 0.901078)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/80/type = "value"
 tracks/80/imported = false
 tracks/80/enabled = true
-tracks/80/path = NodePath("Head/Camera3D/hand/Gun/r_woodholderLeft_low/r_woodholderLeft_low_Material #44_0:position")
+tracks/80/path = NodePath("Head/Camera3D/hand/Gun/r_woodholderUpperRight_low:position")
 tracks/80/interp = 1
 tracks/80/loop_wrap = true
 tracks/80/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-0.371508, 0.758783, 0.901078)]
 }
 tracks/81/type = "value"
 tracks/81/imported = false
 tracks/81/enabled = true
-tracks/81/path = NodePath("Head/Camera3D/hand/Gun/r_woodholderUpperRight_low:position")
+tracks/81/path = NodePath("Head/Camera3D/hand/Gun/r_woodholderUpperRight_low/r_woodholderUpperRight_low_Material #44_0:position")
 tracks/81/interp = 1
 tracks/81/loop_wrap = true
 tracks/81/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-0.371508, 0.758783, 0.901078)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/82/type = "value"
 tracks/82/imported = false
 tracks/82/enabled = true
-tracks/82/path = NodePath("Head/Camera3D/hand/Gun/r_woodholderUpperRight_low/r_woodholderUpperRight_low_Material #44_0:position")
+tracks/82/path = NodePath("Head/Camera3D/hand/Gun/r_woodholder_low:position")
 tracks/82/interp = 1
 tracks/82/loop_wrap = true
 tracks/82/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-0.358155, 0.717816, 0.899281)]
 }
 tracks/83/type = "value"
 tracks/83/imported = false
 tracks/83/enabled = true
-tracks/83/path = NodePath("Head/Camera3D/hand/Gun/r_woodholder_low:position")
+tracks/83/path = NodePath("Head/Camera3D/hand/Gun/r_woodholder_low/r_woodholder_low_Material #44_0:position")
 tracks/83/interp = 1
 tracks/83/loop_wrap = true
 tracks/83/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-0.358155, 0.717816, 0.899281)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/84/type = "value"
 tracks/84/imported = false
 tracks/84/enabled = true
-tracks/84/path = NodePath("Head/Camera3D/hand/Gun/r_woodholder_low/r_woodholder_low_Material #44_0:position")
+tracks/84/path = NodePath("Head/Camera3D/hand/Gun/r_connectorPart2_low:position")
 tracks/84/interp = 1
 tracks/84/loop_wrap = true
 tracks/84/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-0.15848, 0.6757, 0.90133)]
 }
 tracks/85/type = "value"
 tracks/85/imported = false
 tracks/85/enabled = true
-tracks/85/path = NodePath("Head/Camera3D/hand/Gun/r_connectorPart2_low:position")
+tracks/85/path = NodePath("Head/Camera3D/hand/Gun/r_connectorPart2_low/r_connectorPart2_low_Material #44_0:position")
 tracks/85/interp = 1
 tracks/85/loop_wrap = true
 tracks/85/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-0.15848, 0.6757, 0.90133)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/86/type = "value"
 tracks/86/imported = false
 tracks/86/enabled = true
-tracks/86/path = NodePath("Head/Camera3D/hand/Gun/r_connectorPart2_low/r_connectorPart2_low_Material #44_0:position")
+tracks/86/path = NodePath("Head/Camera3D/hand/Gun/r_connectorPart1_low:position")
 tracks/86/interp = 1
 tracks/86/loop_wrap = true
 tracks/86/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-0.193528, 0.685026, 0.901078)]
 }
 tracks/87/type = "value"
 tracks/87/imported = false
 tracks/87/enabled = true
-tracks/87/path = NodePath("Head/Camera3D/hand/Gun/r_connectorPart1_low:position")
+tracks/87/path = NodePath("Head/Camera3D/hand/Gun/r_connectorPart1_low/r_connectorPart1_low_Material #44_0:position")
 tracks/87/interp = 1
 tracks/87/loop_wrap = true
 tracks/87/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-0.193528, 0.685026, 0.901078)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/88/type = "value"
 tracks/88/imported = false
 tracks/88/enabled = true
-tracks/88/path = NodePath("Head/Camera3D/hand/Gun/r_connectorPart1_low/r_connectorPart1_low_Material #44_0:position")
+tracks/88/path = NodePath("Head/Camera3D/hand/Gun/m_base_low:position")
 tracks/88/interp = 1
 tracks/88/loop_wrap = true
 tracks/88/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-0.974393, 0.660599, 0.901298)]
 }
 tracks/89/type = "value"
 tracks/89/imported = false
 tracks/89/enabled = true
-tracks/89/path = NodePath("Head/Camera3D/hand/Gun/m_base_low:position")
+tracks/89/path = NodePath("Head/Camera3D/hand/Gun/m_base_low/m_base_low_Material #44_0:position")
 tracks/89/interp = 1
 tracks/89/loop_wrap = true
 tracks/89/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-0.974393, 0.660599, 0.901298)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/90/type = "value"
 tracks/90/imported = false
 tracks/90/enabled = true
-tracks/90/path = NodePath("Head/Camera3D/hand/Gun/m_base_low/m_base_low_Material #44_0:position")
+tracks/90/path = NodePath("Head/Camera3D/hand/Gun/bm_trigger_low:position")
 tracks/90/interp = 1
 tracks/90/loop_wrap = true
 tracks/90/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.07449, 0.602682, 0.90102)]
 }
 tracks/91/type = "value"
 tracks/91/imported = false
 tracks/91/enabled = true
-tracks/91/path = NodePath("Head/Camera3D/hand/Gun/bm_trigger_low:position")
+tracks/91/path = NodePath("Head/Camera3D/hand/Gun/bm_trigger_low/bm_trigger_low_Material #44_0:position")
 tracks/91/interp = 1
 tracks/91/loop_wrap = true
 tracks/91/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.07449, 0.602682, 0.90102)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/92/type = "value"
 tracks/92/imported = false
 tracks/92/enabled = true
-tracks/92/path = NodePath("Head/Camera3D/hand/Gun/bm_trigger_low/bm_trigger_low_Material #44_0:position")
+tracks/92/path = NodePath("Head/Camera3D/hand/Gun/bm_magazinePart3_low:position")
 tracks/92/interp = 1
 tracks/92/loop_wrap = true
 tracks/92/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-0.957487, 0.642515, 0.898696)]
 }
 tracks/93/type = "value"
 tracks/93/imported = false
 tracks/93/enabled = true
-tracks/93/path = NodePath("Head/Camera3D/hand/Gun/bm_magazinePart3_low:position")
+tracks/93/path = NodePath("Head/Camera3D/hand/Gun/bm_magazinePart3_low/bm_magazinePart3_low_Material #44_0:position")
 tracks/93/interp = 1
 tracks/93/loop_wrap = true
 tracks/93/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-0.957487, 0.642515, 0.898696)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/94/type = "value"
 tracks/94/imported = false
 tracks/94/enabled = true
-tracks/94/path = NodePath("Head/Camera3D/hand/Gun/bm_magazinePart3_low/bm_magazinePart3_low_Material #44_0:position")
+tracks/94/path = NodePath("Head/Camera3D/hand/Gun/bm_magazinePart1_low:position")
 tracks/94/interp = 1
 tracks/94/loop_wrap = true
 tracks/94/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-0.899182, 0.650114, 0.921427)]
 }
 tracks/95/type = "value"
 tracks/95/imported = false
 tracks/95/enabled = true
-tracks/95/path = NodePath("Head/Camera3D/hand/Gun/bm_magazinePart1_low:position")
+tracks/95/path = NodePath("Head/Camera3D/hand/Gun/bm_magazinePart1_low/bm_magazinePart1_low_Material #44_0:position")
 tracks/95/interp = 1
 tracks/95/loop_wrap = true
 tracks/95/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-0.899182, 0.650114, 0.921427)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/96/type = "value"
 tracks/96/imported = false
 tracks/96/enabled = true
-tracks/96/path = NodePath("Head/Camera3D/hand/Gun/bm_magazinePart1_low/bm_magazinePart1_low_Material #44_0:position")
+tracks/96/path = NodePath("Head/Camera3D/hand/Gun/u_dustcover_low:position")
 tracks/96/interp = 1
 tracks/96/loop_wrap = true
 tracks/96/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.00587, 0.743569, 0.901078)]
 }
 tracks/97/type = "value"
 tracks/97/imported = false
 tracks/97/enabled = true
-tracks/97/path = NodePath("Head/Camera3D/hand/Gun/u_dustcover_low:position")
+tracks/97/path = NodePath("Head/Camera3D/hand/Gun/u_dustcover_low/u_dustcover_low_Material #44_0:position")
 tracks/97/interp = 1
 tracks/97/loop_wrap = true
 tracks/97/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.00587, 0.743569, 0.901078)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/98/type = "value"
 tracks/98/imported = false
 tracks/98/enabled = true
-tracks/98/path = NodePath("Head/Camera3D/hand/Gun/u_dustcover_low/u_dustcover_low_Material #44_0:position")
+tracks/98/path = NodePath("Head/Camera3D/hand/Gun/ul_dustcoverScroll_low:position")
 tracks/98/interp = 1
 tracks/98/loop_wrap = true
 tracks/98/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.23535, 0.749848, 0.900304)]
 }
 tracks/99/type = "value"
 tracks/99/imported = false
 tracks/99/enabled = true
-tracks/99/path = NodePath("Head/Camera3D/hand/Gun/ul_dustcoverScroll_low:position")
+tracks/99/path = NodePath("Head/Camera3D/hand/Gun/ul_dustcoverScroll_low/ul_dustcoverScroll_low_Material #44_0:position")
 tracks/99/interp = 1
 tracks/99/loop_wrap = true
 tracks/99/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.23535, 0.749848, 0.900304)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/100/type = "value"
 tracks/100/imported = false
 tracks/100/enabled = true
-tracks/100/path = NodePath("Head/Camera3D/hand/Gun/ul_dustcoverScroll_low/ul_dustcoverScroll_low_Material #44_0:position")
+tracks/100/path = NodePath("Head/Camera3D/hand/Gun/r_baseNumber1_low:position")
 tracks/100/interp = 1
 tracks/100/loop_wrap = true
 tracks/100/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-0.731172, 0.721214, 0.928697)]
 }
 tracks/101/type = "value"
 tracks/101/imported = false
 tracks/101/enabled = true
-tracks/101/path = NodePath("Head/Camera3D/hand/Gun/r_baseNumber1_low:position")
+tracks/101/path = NodePath("Head/Camera3D/hand/Gun/r_baseNumber1_low/r_baseNumber1_low_Material #44_0:position")
 tracks/101/interp = 1
 tracks/101/loop_wrap = true
 tracks/101/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-0.731172, 0.721214, 0.928697)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/102/type = "value"
 tracks/102/imported = false
 tracks/102/enabled = true
-tracks/102/path = NodePath("Head/Camera3D/hand/Gun/r_baseNumber1_low/r_baseNumber1_low_Material #44_0:position")
+tracks/102/path = NodePath("Head/Camera3D/hand/Gun/r_numberBase_low:position")
 tracks/102/interp = 1
 tracks/102/loop_wrap = true
 tracks/102/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-0.685883, 0.760301, 0.901438)]
 }
 tracks/103/type = "value"
 tracks/103/imported = false
 tracks/103/enabled = true
-tracks/103/path = NodePath("Head/Camera3D/hand/Gun/r_numberBase_low:position")
+tracks/103/path = NodePath("Head/Camera3D/hand/Gun/r_numberBase_low/r_numberBase_low_Material #44_0:position")
 tracks/103/interp = 1
 tracks/103/loop_wrap = true
 tracks/103/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-0.685883, 0.760301, 0.901438)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/104/type = "value"
 tracks/104/imported = false
 tracks/104/enabled = true
-tracks/104/path = NodePath("Head/Camera3D/hand/Gun/r_numberBase_low/r_numberBase_low_Material #44_0:position")
+tracks/104/path = NodePath("Head/Camera3D/hand/Gun/ur_numberBase2_low:position")
 tracks/104/interp = 1
 tracks/104/loop_wrap = true
 tracks/104/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-0.690777, 0.78972, 0.901438)]
 }
 tracks/105/type = "value"
 tracks/105/imported = false
 tracks/105/enabled = true
-tracks/105/path = NodePath("Head/Camera3D/hand/Gun/ur_numberBase2_low:position")
+tracks/105/path = NodePath("Head/Camera3D/hand/Gun/ur_numberBase2_low/ur_numberBase2_low_Material #44_0:position")
 tracks/105/interp = 1
 tracks/105/loop_wrap = true
 tracks/105/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-0.690777, 0.78972, 0.901438)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/106/type = "value"
 tracks/106/imported = false
 tracks/106/enabled = true
-tracks/106/path = NodePath("Head/Camera3D/hand/Gun/ur_numberBase2_low/ur_numberBase2_low_Material #44_0:position")
+tracks/106/path = NodePath("Head/Camera3D/hand/Gun/ur_number_low:position")
 tracks/106/interp = 1
 tracks/106/loop_wrap = true
 tracks/106/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-0.706705, 0.802942, 0.901572)]
 }
 tracks/107/type = "value"
 tracks/107/imported = false
 tracks/107/enabled = true
-tracks/107/path = NodePath("Head/Camera3D/hand/Gun/ur_number_low:position")
+tracks/107/path = NodePath("Head/Camera3D/hand/Gun/ur_number_low/ur_number_low_Material #44_0:position")
 tracks/107/interp = 1
 tracks/107/loop_wrap = true
 tracks/107/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-0.706705, 0.802942, 0.901572)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/108/type = "value"
 tracks/108/imported = false
 tracks/108/enabled = true
-tracks/108/path = NodePath("Head/Camera3D/hand/Gun/ur_number_low/ur_number_low_Material #44_0:position")
+tracks/108/path = NodePath("Head/Camera3D/hand/Gun/l_beltHolder_low:position")
 tracks/108/interp = 1
 tracks/108/loop_wrap = true
 tracks/108/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.66085, 0.543915, 0.900835)]
 }
 tracks/109/type = "value"
 tracks/109/imported = false
 tracks/109/enabled = true
-tracks/109/path = NodePath("Head/Camera3D/hand/Gun/l_beltHolder_low:position")
+tracks/109/path = NodePath("Head/Camera3D/hand/Gun/l_beltHolder_low/l_beltHolder_low_Material #44_0:position")
 tracks/109/interp = 1
 tracks/109/loop_wrap = true
 tracks/109/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.66085, 0.543915, 0.900835)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/110/type = "value"
 tracks/110/imported = false
 tracks/110/enabled = true
-tracks/110/path = NodePath("Head/Camera3D/hand/Gun/l_beltHolder_low/l_beltHolder_low_Material #44_0:position")
+tracks/110/path = NodePath("Head/Camera3D/hand/Gun/l_belt_low:position")
 tracks/110/interp = 1
 tracks/110/loop_wrap = true
 tracks/110/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.65984, 0.521844, 0.900856)]
 }
 tracks/111/type = "value"
 tracks/111/imported = false
 tracks/111/enabled = true
-tracks/111/path = NodePath("Head/Camera3D/hand/Gun/l_belt_low:position")
+tracks/111/path = NodePath("Head/Camera3D/hand/Gun/l_belt_low/l_belt_low_Material #44_0:position")
 tracks/111/interp = 1
 tracks/111/loop_wrap = true
 tracks/111/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.65984, 0.521844, 0.900856)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/112/type = "value"
 tracks/112/imported = false
 tracks/112/enabled = true
-tracks/112/path = NodePath("Head/Camera3D/hand/Gun/l_belt_low/l_belt_low_Material #44_0:position")
+tracks/112/path = NodePath("Head/Camera3D/hand/Gun/l_stockScrew_low:position")
 tracks/112/interp = 1
 tracks/112/loop_wrap = true
 tracks/112/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.30607, 0.703076, 0.90093)]
 }
 tracks/113/type = "value"
 tracks/113/imported = false
 tracks/113/enabled = true
-tracks/113/path = NodePath("Head/Camera3D/hand/Gun/l_stockScrew_low:position")
+tracks/113/path = NodePath("Head/Camera3D/hand/Gun/l_stockScrew_low/l_stockScrew_low_Material #44_0:position")
 tracks/113/interp = 1
 tracks/113/loop_wrap = true
 tracks/113/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.30607, 0.703076, 0.90093)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/114/type = "value"
 tracks/114/imported = false
 tracks/114/enabled = true
-tracks/114/path = NodePath("Head/Camera3D/hand/Gun/l_stockScrew_low/l_stockScrew_low_Material #44_0:position")
+tracks/114/path = NodePath("Head/Camera3D/hand/Gun/bm_triggerBaseButton4_low:position")
 tracks/114/interp = 1
 tracks/114/loop_wrap = true
 tracks/114/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-0.964505, 0.61804, 0.921542)]
 }
 tracks/115/type = "value"
 tracks/115/imported = false
 tracks/115/enabled = true
-tracks/115/path = NodePath("Head/Camera3D/hand/Gun/bm_triggerBaseButton4_low:position")
+tracks/115/path = NodePath("Head/Camera3D/hand/Gun/bm_triggerBaseButton4_low/bm_triggerBaseButton4_low_Material #44_0:position")
 tracks/115/interp = 1
 tracks/115/loop_wrap = true
 tracks/115/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-0.964505, 0.61804, 0.921542)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/116/type = "value"
 tracks/116/imported = false
 tracks/116/enabled = true
-tracks/116/path = NodePath("Head/Camera3D/hand/Gun/bm_triggerBaseButton4_low/bm_triggerBaseButton4_low_Material #44_0:position")
+tracks/116/path = NodePath("Head/Camera3D/hand/Gun/bm_triggerBaseButton3_low:position")
 tracks/116/interp = 1
 tracks/116/loop_wrap = true
 tracks/116/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-0.980309, 0.61804, 0.921541)]
 }
 tracks/117/type = "value"
 tracks/117/imported = false
 tracks/117/enabled = true
-tracks/117/path = NodePath("Head/Camera3D/hand/Gun/bm_triggerBaseButton3_low:position")
+tracks/117/path = NodePath("Head/Camera3D/hand/Gun/bm_triggerBaseButton3_low/bm_triggerBaseButton3_low_Material #44_0:position")
 tracks/117/interp = 1
 tracks/117/loop_wrap = true
 tracks/117/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-0.980309, 0.61804, 0.921541)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/118/type = "value"
 tracks/118/imported = false
 tracks/118/enabled = true
-tracks/118/path = NodePath("Head/Camera3D/hand/Gun/bm_triggerBaseButton3_low/bm_triggerBaseButton3_low_Material #44_0:position")
+tracks/118/path = NodePath("Head/Camera3D/hand/Gun/bm_triggerBaseButton2_low:position")
 tracks/118/interp = 1
 tracks/118/loop_wrap = true
 tracks/118/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-0.964504, 0.618039, 0.880227)]
 }
 tracks/119/type = "value"
 tracks/119/imported = false
 tracks/119/enabled = true
-tracks/119/path = NodePath("Head/Camera3D/hand/Gun/bm_triggerBaseButton2_low:position")
+tracks/119/path = NodePath("Head/Camera3D/hand/Gun/bm_triggerBaseButton2_low/bm_triggerBaseButton2_low_Material #44_0:position")
 tracks/119/interp = 1
 tracks/119/loop_wrap = true
 tracks/119/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-0.964504, 0.618039, 0.880227)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/120/type = "value"
 tracks/120/imported = false
 tracks/120/enabled = true
-tracks/120/path = NodePath("Head/Camera3D/hand/Gun/bm_triggerBaseButton2_low/bm_triggerBaseButton2_low_Material #44_0:position")
+tracks/120/path = NodePath("Head/Camera3D/hand/Gun/bm_triggerBaseButton1_low:position")
 tracks/120/interp = 1
 tracks/120/loop_wrap = true
 tracks/120/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-0.980308, 0.618039, 0.880226)]
 }
 tracks/121/type = "value"
 tracks/121/imported = false
 tracks/121/enabled = true
-tracks/121/path = NodePath("Head/Camera3D/hand/Gun/bm_triggerBaseButton1_low:position")
+tracks/121/path = NodePath("Head/Camera3D/hand/Gun/bm_triggerBaseButton1_low/bm_triggerBaseButton1_low_Material #44_0:position")
 tracks/121/interp = 1
 tracks/121/loop_wrap = true
 tracks/121/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-0.980308, 0.618039, 0.880226)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/122/type = "value"
 tracks/122/imported = false
 tracks/122/enabled = true
-tracks/122/path = NodePath("Head/Camera3D/hand/Gun/bm_triggerBaseButton1_low/bm_triggerBaseButton1_low_Material #44_0:position")
+tracks/122/path = NodePath("Head/Camera3D/hand/Gun/r_baseNumber2_low:position")
 tracks/122/interp = 1
 tracks/122/loop_wrap = true
 tracks/122/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-0.731173, 0.721214, 0.874196)]
 }
 tracks/123/type = "value"
 tracks/123/imported = false
 tracks/123/enabled = true
-tracks/123/path = NodePath("Head/Camera3D/hand/Gun/r_baseNumber2_low:position")
+tracks/123/path = NodePath("Head/Camera3D/hand/Gun/r_baseNumber2_low/r_baseNumber2_low_Material #44_0:position")
 tracks/123/interp = 1
 tracks/123/loop_wrap = true
 tracks/123/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-0.731173, 0.721214, 0.874196)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/124/type = "value"
 tracks/124/imported = false
 tracks/124/enabled = true
-tracks/124/path = NodePath("Head/Camera3D/hand/Gun/r_baseNumber2_low/r_baseNumber2_low_Material #44_0:position")
+tracks/124/path = NodePath("Head/Camera3D/hand/Gun/ur_numberHolder2:position")
 tracks/124/interp = 1
 tracks/124/loop_wrap = true
 tracks/124/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-0.729643, 0.795172, 0.901438)]
 }
 tracks/125/type = "value"
 tracks/125/imported = false
 tracks/125/enabled = true
-tracks/125/path = NodePath("Head/Camera3D/hand/Gun/ur_numberHolder2:position")
+tracks/125/path = NodePath("Head/Camera3D/hand/Gun/ur_numberHolder2/ur_numberHolder2_Material #44_0:position")
 tracks/125/interp = 1
 tracks/125/loop_wrap = true
 tracks/125/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-0.729643, 0.795172, 0.901438)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/126/type = "value"
 tracks/126/imported = false
 tracks/126/enabled = true
-tracks/126/path = NodePath("Head/Camera3D/hand/Gun/ur_numberHolder2/ur_numberHolder2_Material #44_0:position")
+tracks/126/path = NodePath("Head/Camera3D/hand/Gun/r_woodLower_low:position")
 tracks/126/interp = 1
 tracks/126/loop_wrap = true
 tracks/126/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-0.545943, 0.676965, 0.899852)]
 }
 tracks/127/type = "value"
 tracks/127/imported = false
 tracks/127/enabled = true
-tracks/127/path = NodePath("Head/Camera3D/hand/Gun/r_woodLower_low:position")
+tracks/127/path = NodePath("Head/Camera3D/hand/Gun/r_woodLower_low/Object_130:position")
 tracks/127/interp = 1
 tracks/127/loop_wrap = true
 tracks/127/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-0.545943, 0.676965, 0.899852)]
+"values": [Vector3(378.356, 8.45914, 107.493)]
 }
 tracks/128/type = "value"
 tracks/128/imported = false
 tracks/128/enabled = true
-tracks/128/path = NodePath("Head/Camera3D/hand/Gun/r_woodLower_low/Object_130:position")
+tracks/128/path = NodePath("Head/Camera3D/hand/Gun/r_woodLower_low/Object_130/r_woodLower_low_Material #44_0:position")
 tracks/128/interp = 1
 tracks/128/loop_wrap = true
 tracks/128/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(378.356, 8.45914, 107.493)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/129/type = "value"
 tracks/129/imported = false
 tracks/129/enabled = true
-tracks/129/path = NodePath("Head/Camera3D/hand/Gun/r_woodLower_low/Object_130/r_woodLower_low_Material #44_0:position")
+tracks/129/path = NodePath("Head/Camera3D/hand/Gun/bm_magazinePart2_low:position")
 tracks/129/interp = 1
 tracks/129/loop_wrap = true
 tracks/129/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-0.899182, 0.650114, 0.881518)]
 }
 tracks/130/type = "value"
 tracks/130/imported = false
 tracks/130/enabled = true
-tracks/130/path = NodePath("Head/Camera3D/hand/Gun/bm_magazinePart2_low:position")
+tracks/130/path = NodePath("Head/Camera3D/hand/Gun/bm_magazinePart2_low/bm_magazinePart2_low_Material #44_0:position")
 tracks/130/interp = 1
 tracks/130/loop_wrap = true
 tracks/130/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-0.899182, 0.650114, 0.881518)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/131/type = "value"
 tracks/131/imported = false
 tracks/131/enabled = true
-tracks/131/path = NodePath("Head/Camera3D/hand/Gun/bm_magazinePart2_low/bm_magazinePart2_low_Material #44_0:position")
+tracks/131/path = NodePath("Head/Camera3D/hand/Gun/bm_magazine_low:rotation")
 tracks/131/interp = 1
 tracks/131/loop_wrap = true
 tracks/131/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 4.36557e-08, 0)]
 }
 tracks/132/type = "value"
 tracks/132/imported = false
 tracks/132/enabled = true
-tracks/132/path = NodePath("Head/Camera3D/hand/Gun/bm_magazine_low:rotation")
+tracks/132/path = NodePath("Head/Camera3D/hand/Gun/bm_magazine_low/bm_magazine_low_Material #44_0:rotation")
 tracks/132/interp = 1
 tracks/132/loop_wrap = true
 tracks/132/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 4.36557e-08, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/133/type = "value"
 tracks/133/imported = false
 tracks/133/enabled = true
-tracks/133/path = NodePath("Head/Camera3D/hand/Gun/bm_magazine_low/bm_magazine_low_Material #44_0:rotation")
+tracks/133/path = NodePath("Head/Camera3D/hand/Gun/u_dustcoverHolder_low:rotation")
 tracks/133/interp = 1
 tracks/133/loop_wrap = true
 tracks/133/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 4.36557e-08, 0)]
 }
 tracks/134/type = "value"
 tracks/134/imported = false
 tracks/134/enabled = true
-tracks/134/path = NodePath("Head/Camera3D/hand/Gun/u_dustcoverHolder_low:rotation")
+tracks/134/path = NodePath("Head/Camera3D/hand/Gun/u_dustcoverHolder_low/u_dustcoverHolder_low_Material #44_0:rotation")
 tracks/134/interp = 1
 tracks/134/loop_wrap = true
 tracks/134/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 4.36557e-08, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/135/type = "value"
 tracks/135/imported = false
 tracks/135/enabled = true
-tracks/135/path = NodePath("Head/Camera3D/hand/Gun/u_dustcoverHolder_low/u_dustcoverHolder_low_Material #44_0:rotation")
+tracks/135/path = NodePath("Head/Camera3D/hand/Gun/r_flap_low:rotation")
 tracks/135/interp = 1
 tracks/135/loop_wrap = true
 tracks/135/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 4.36557e-08, 0)]
 }
 tracks/136/type = "value"
 tracks/136/imported = false
 tracks/136/enabled = true
-tracks/136/path = NodePath("Head/Camera3D/hand/Gun/r_flap_low:rotation")
+tracks/136/path = NodePath("Head/Camera3D/hand/Gun/r_flap_low/r_flap_low_Material #44_0:rotation")
 tracks/136/interp = 1
 tracks/136/loop_wrap = true
 tracks/136/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 4.36557e-08, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/137/type = "value"
 tracks/137/imported = false
 tracks/137/enabled = true
-tracks/137/path = NodePath("Head/Camera3D/hand/Gun/r_flap_low/r_flap_low_Material #44_0:rotation")
+tracks/137/path = NodePath("Head/Camera3D/hand/Gun/r_upperCylinderHole_low:rotation")
 tracks/137/interp = 1
 tracks/137/loop_wrap = true
 tracks/137/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 4.36557e-08, 0)]
 }
 tracks/138/type = "value"
 tracks/138/imported = false
 tracks/138/enabled = true
-tracks/138/path = NodePath("Head/Camera3D/hand/Gun/r_upperCylinderHole_low:rotation")
+tracks/138/path = NodePath("Head/Camera3D/hand/Gun/r_upperCylinderHole_low/r_upperCylinderHole_low_Material #44_0:rotation")
 tracks/138/interp = 1
 tracks/138/loop_wrap = true
 tracks/138/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 4.36557e-08, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/139/type = "value"
 tracks/139/imported = false
 tracks/139/enabled = true
-tracks/139/path = NodePath("Head/Camera3D/hand/Gun/r_upperCylinderHole_low/r_upperCylinderHole_low_Material #44_0:rotation")
+tracks/139/path = NodePath("Head/Camera3D/hand/Gun/l_stockWood_low:rotation")
 tracks/139/interp = 1
 tracks/139/loop_wrap = true
 tracks/139/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 4.36557e-08, 0)]
 }
 tracks/140/type = "value"
 tracks/140/imported = false
 tracks/140/enabled = true
-tracks/140/path = NodePath("Head/Camera3D/hand/Gun/l_stockWood_low:rotation")
+tracks/140/path = NodePath("Head/Camera3D/hand/Gun/l_stockWood_low/l_stockWood_low_Material #44_0:rotation")
 tracks/140/interp = 1
 tracks/140/loop_wrap = true
 tracks/140/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 4.36557e-08, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/141/type = "value"
 tracks/141/imported = false
 tracks/141/enabled = true
-tracks/141/path = NodePath("Head/Camera3D/hand/Gun/l_stockWood_low/l_stockWood_low_Material #44_0:rotation")
+tracks/141/path = NodePath("Head/Camera3D/hand/Gun/m_safetyswitch_low:rotation")
 tracks/141/interp = 1
 tracks/141/loop_wrap = true
 tracks/141/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 4.36557e-08, 0)]
 }
 tracks/142/type = "value"
 tracks/142/imported = false
 tracks/142/enabled = true
-tracks/142/path = NodePath("Head/Camera3D/hand/Gun/m_safetyswitch_low:rotation")
+tracks/142/path = NodePath("Head/Camera3D/hand/Gun/m_safetyswitch_low/m_safetyswitch_low_Material #44_0:rotation")
 tracks/142/interp = 1
 tracks/142/loop_wrap = true
 tracks/142/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 4.36557e-08, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/143/type = "value"
 tracks/143/imported = false
 tracks/143/enabled = true
-tracks/143/path = NodePath("Head/Camera3D/hand/Gun/m_safetyswitch_low/m_safetyswitch_low_Material #44_0:rotation")
+tracks/143/path = NodePath("Head/Camera3D/hand/Gun/bm_triggerBasePart_low:rotation")
 tracks/143/interp = 1
 tracks/143/loop_wrap = true
 tracks/143/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 4.36557e-08, 0)]
 }
 tracks/144/type = "value"
 tracks/144/imported = false
 tracks/144/enabled = true
-tracks/144/path = NodePath("Head/Camera3D/hand/Gun/bm_triggerBasePart_low:rotation")
+tracks/144/path = NodePath("Head/Camera3D/hand/Gun/bm_triggerBasePart_low/bm_triggerBasePart_low_Material #44_0:rotation")
 tracks/144/interp = 1
 tracks/144/loop_wrap = true
 tracks/144/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 4.36557e-08, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/145/type = "value"
 tracks/145/imported = false
 tracks/145/enabled = true
-tracks/145/path = NodePath("Head/Camera3D/hand/Gun/bm_triggerBasePart_low/bm_triggerBasePart_low_Material #44_0:rotation")
+tracks/145/path = NodePath("Head/Camera3D/hand/Gun/bl_grip_low:rotation")
 tracks/145/interp = 1
 tracks/145/loop_wrap = true
 tracks/145/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 4.36557e-08, 0)]
 }
 tracks/146/type = "value"
 tracks/146/imported = false
 tracks/146/enabled = true
-tracks/146/path = NodePath("Head/Camera3D/hand/Gun/bl_grip_low:rotation")
+tracks/146/path = NodePath("Head/Camera3D/hand/Gun/bl_grip_low/bl_grip_low_Material #44_0:rotation")
 tracks/146/interp = 1
 tracks/146/loop_wrap = true
 tracks/146/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 4.36557e-08, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/147/type = "value"
 tracks/147/imported = false
 tracks/147/enabled = true
-tracks/147/path = NodePath("Head/Camera3D/hand/Gun/bl_grip_low/bl_grip_low_Material #44_0:rotation")
+tracks/147/path = NodePath("Head/Camera3D/hand/Gun/r_buttons_high:rotation")
 tracks/147/interp = 1
 tracks/147/loop_wrap = true
 tracks/147/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 4.36557e-08, 0)]
 }
 tracks/148/type = "value"
 tracks/148/imported = false
 tracks/148/enabled = true
-tracks/148/path = NodePath("Head/Camera3D/hand/Gun/r_buttons_high:rotation")
+tracks/148/path = NodePath("Head/Camera3D/hand/Gun/r_buttons_high/r_buttons_high_Material #44_0:rotation")
 tracks/148/interp = 1
 tracks/148/loop_wrap = true
 tracks/148/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 4.36557e-08, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/149/type = "value"
 tracks/149/imported = false
 tracks/149/enabled = true
-tracks/149/path = NodePath("Head/Camera3D/hand/Gun/r_buttons_high/r_buttons_high_Material #44_0:rotation")
+tracks/149/path = NodePath("Head/Camera3D/hand/Gun/ls2_button3_low:rotation")
 tracks/149/interp = 1
 tracks/149/loop_wrap = true
 tracks/149/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, -1.16415e-07, 0)]
 }
 tracks/150/type = "value"
 tracks/150/imported = false
 tracks/150/enabled = true
-tracks/150/path = NodePath("Head/Camera3D/hand/Gun/ls2_button3_low:rotation")
+tracks/150/path = NodePath("Head/Camera3D/hand/Gun/ls2_button3_low/ls2_button3_low_Material #44_0:rotation")
 tracks/150/interp = 1
 tracks/150/loop_wrap = true
 tracks/150/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, -1.16415e-07, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/151/type = "value"
 tracks/151/imported = false
 tracks/151/enabled = true
-tracks/151/path = NodePath("Head/Camera3D/hand/Gun/ls2_button3_low/ls2_button3_low_Material #44_0:rotation")
+tracks/151/path = NodePath("Head/Camera3D/hand/Gun/ls2_button2_low:rotation")
 tracks/151/interp = 1
 tracks/151/loop_wrap = true
 tracks/151/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, -1.16415e-07, 0)]
 }
 tracks/152/type = "value"
 tracks/152/imported = false
 tracks/152/enabled = true
-tracks/152/path = NodePath("Head/Camera3D/hand/Gun/ls2_button2_low:rotation")
+tracks/152/path = NodePath("Head/Camera3D/hand/Gun/ls2_button2_low/ls2_button2_low_Material #44_0:rotation")
 tracks/152/interp = 1
 tracks/152/loop_wrap = true
 tracks/152/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, -1.16415e-07, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/153/type = "value"
 tracks/153/imported = false
 tracks/153/enabled = true
-tracks/153/path = NodePath("Head/Camera3D/hand/Gun/ls2_button2_low/ls2_button2_low_Material #44_0:rotation")
+tracks/153/path = NodePath("Head/Camera3D/hand/Gun/r_button3_low:rotation")
 tracks/153/interp = 1
 tracks/153/loop_wrap = true
 tracks/153/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 4.36557e-08, 0)]
 }
 tracks/154/type = "value"
 tracks/154/imported = false
 tracks/154/enabled = true
-tracks/154/path = NodePath("Head/Camera3D/hand/Gun/r_button3_low:rotation")
+tracks/154/path = NodePath("Head/Camera3D/hand/Gun/r_button3_low/r_button3_low_Material #44_0:rotation")
 tracks/154/interp = 1
 tracks/154/loop_wrap = true
 tracks/154/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 4.36557e-08, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/155/type = "value"
 tracks/155/imported = false
 tracks/155/enabled = true
-tracks/155/path = NodePath("Head/Camera3D/hand/Gun/r_button3_low/r_button3_low_Material #44_0:rotation")
+tracks/155/path = NodePath("Head/Camera3D/hand/Gun/l_button2_low:rotation")
 tracks/155/interp = 1
 tracks/155/loop_wrap = true
 tracks/155/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 4.36557e-08, 0)]
 }
 tracks/156/type = "value"
 tracks/156/imported = false
 tracks/156/enabled = true
-tracks/156/path = NodePath("Head/Camera3D/hand/Gun/l_button2_low:rotation")
+tracks/156/path = NodePath("Head/Camera3D/hand/Gun/l_button2_low/l_button2_low_Material #44_0:rotation")
 tracks/156/interp = 1
 tracks/156/loop_wrap = true
 tracks/156/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 4.36557e-08, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/157/type = "value"
 tracks/157/imported = false
 tracks/157/enabled = true
-tracks/157/path = NodePath("Head/Camera3D/hand/Gun/l_button2_low/l_button2_low_Material #44_0:rotation")
+tracks/157/path = NodePath("Head/Camera3D/hand/Gun/l_button1_low:rotation")
 tracks/157/interp = 1
 tracks/157/loop_wrap = true
 tracks/157/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 4.36557e-08, 0)]
 }
 tracks/158/type = "value"
 tracks/158/imported = false
 tracks/158/enabled = true
-tracks/158/path = NodePath("Head/Camera3D/hand/Gun/l_button1_low:rotation")
+tracks/158/path = NodePath("Head/Camera3D/hand/Gun/l_button1_low/l_button1_low_Material #44_0:rotation")
 tracks/158/interp = 1
 tracks/158/loop_wrap = true
 tracks/158/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 4.36557e-08, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/159/type = "value"
 tracks/159/imported = false
 tracks/159/enabled = true
-tracks/159/path = NodePath("Head/Camera3D/hand/Gun/l_button1_low/l_button1_low_Material #44_0:rotation")
+tracks/159/path = NodePath("Head/Camera3D/hand/Gun/r_button2_low:rotation")
 tracks/159/interp = 1
 tracks/159/loop_wrap = true
 tracks/159/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 4.36557e-08, 0)]
 }
 tracks/160/type = "value"
 tracks/160/imported = false
 tracks/160/enabled = true
-tracks/160/path = NodePath("Head/Camera3D/hand/Gun/r_button2_low:rotation")
+tracks/160/path = NodePath("Head/Camera3D/hand/Gun/r_button2_low/r_button2_low_Material #44_0:rotation")
 tracks/160/interp = 1
 tracks/160/loop_wrap = true
 tracks/160/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 4.36557e-08, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/161/type = "value"
 tracks/161/imported = false
 tracks/161/enabled = true
-tracks/161/path = NodePath("Head/Camera3D/hand/Gun/r_button2_low/r_button2_low_Material #44_0:rotation")
+tracks/161/path = NodePath("Head/Camera3D/hand/Gun/ls2_button1_low:rotation")
 tracks/161/interp = 1
 tracks/161/loop_wrap = true
 tracks/161/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, -1.16415e-07, 0)]
 }
 tracks/162/type = "value"
 tracks/162/imported = false
 tracks/162/enabled = true
-tracks/162/path = NodePath("Head/Camera3D/hand/Gun/ls2_button1_low:rotation")
+tracks/162/path = NodePath("Head/Camera3D/hand/Gun/ls2_button1_low/ls2_button1_low_Material #44_0:rotation")
 tracks/162/interp = 1
 tracks/162/loop_wrap = true
 tracks/162/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, -1.16415e-07, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/163/type = "value"
 tracks/163/imported = false
 tracks/163/enabled = true
-tracks/163/path = NodePath("Head/Camera3D/hand/Gun/ls2_button1_low/ls2_button1_low_Material #44_0:rotation")
+tracks/163/path = NodePath("Head/Camera3D/hand/Gun/r_button1_low:rotation")
 tracks/163/interp = 1
 tracks/163/loop_wrap = true
 tracks/163/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 4.36557e-08, 0)]
 }
 tracks/164/type = "value"
 tracks/164/imported = false
 tracks/164/enabled = true
-tracks/164/path = NodePath("Head/Camera3D/hand/Gun/r_button1_low:rotation")
+tracks/164/path = NodePath("Head/Camera3D/hand/Gun/r_button1_low/r_button1_low_Material #44_0:rotation")
 tracks/164/interp = 1
 tracks/164/loop_wrap = true
 tracks/164/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 4.36557e-08, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/165/type = "value"
 tracks/165/imported = false
 tracks/165/enabled = true
-tracks/165/path = NodePath("Head/Camera3D/hand/Gun/r_button1_low/r_button1_low_Material #44_0:rotation")
+tracks/165/path = NodePath("Head/Camera3D/hand/Gun/rs2_button2_low:rotation")
 tracks/165/interp = 1
 tracks/165/loop_wrap = true
 tracks/165/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, -1.16415e-07, 0)]
 }
 tracks/166/type = "value"
 tracks/166/imported = false
 tracks/166/enabled = true
-tracks/166/path = NodePath("Head/Camera3D/hand/Gun/rs2_button2_low:rotation")
+tracks/166/path = NodePath("Head/Camera3D/hand/Gun/rs2_button2_low/rs2_button2_low_Material #44_0:rotation")
 tracks/166/interp = 1
 tracks/166/loop_wrap = true
 tracks/166/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, -1.16415e-07, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/167/type = "value"
 tracks/167/imported = false
 tracks/167/enabled = true
-tracks/167/path = NodePath("Head/Camera3D/hand/Gun/rs2_button2_low/rs2_button2_low_Material #44_0:rotation")
+tracks/167/path = NodePath("Head/Camera3D/hand/Gun/rs2_button1_low:rotation")
 tracks/167/interp = 1
 tracks/167/loop_wrap = true
 tracks/167/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, -1.16415e-07, 0)]
 }
 tracks/168/type = "value"
 tracks/168/imported = false
 tracks/168/enabled = true
-tracks/168/path = NodePath("Head/Camera3D/hand/Gun/rs2_button1_low:rotation")
+tracks/168/path = NodePath("Head/Camera3D/hand/Gun/rs2_button1_low/rs2_button1_low_Material #44_0:rotation")
 tracks/168/interp = 1
 tracks/168/loop_wrap = true
 tracks/168/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, -1.16415e-07, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/169/type = "value"
 tracks/169/imported = false
 tracks/169/enabled = true
-tracks/169/path = NodePath("Head/Camera3D/hand/Gun/rs2_button1_low/rs2_button1_low_Material #44_0:rotation")
+tracks/169/path = NodePath("Head/Camera3D/hand/Gun/m_button2_low:rotation")
 tracks/169/interp = 1
 tracks/169/loop_wrap = true
 tracks/169/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, -1.16415e-07, 0)]
 }
 tracks/170/type = "value"
 tracks/170/imported = false
 tracks/170/enabled = true
-tracks/170/path = NodePath("Head/Camera3D/hand/Gun/m_button2_low:rotation")
+tracks/170/path = NodePath("Head/Camera3D/hand/Gun/m_button2_low/m_button2_low_Material #44_0:rotation")
 tracks/170/interp = 1
 tracks/170/loop_wrap = true
 tracks/170/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, -1.16415e-07, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/171/type = "value"
 tracks/171/imported = false
 tracks/171/enabled = true
-tracks/171/path = NodePath("Head/Camera3D/hand/Gun/m_button2_low/m_button2_low_Material #44_0:rotation")
+tracks/171/path = NodePath("Head/Camera3D/hand/Gun/m_button3_low:rotation")
 tracks/171/interp = 1
 tracks/171/loop_wrap = true
 tracks/171/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, -1.16415e-07, 0)]
 }
 tracks/172/type = "value"
 tracks/172/imported = false
 tracks/172/enabled = true
-tracks/172/path = NodePath("Head/Camera3D/hand/Gun/m_button3_low:rotation")
+tracks/172/path = NodePath("Head/Camera3D/hand/Gun/m_button3_low/m_button3_low_Material #44_0:rotation")
 tracks/172/interp = 1
 tracks/172/loop_wrap = true
 tracks/172/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, -1.16415e-07, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/173/type = "value"
 tracks/173/imported = false
 tracks/173/enabled = true
-tracks/173/path = NodePath("Head/Camera3D/hand/Gun/m_button3_low/m_button3_low_Material #44_0:rotation")
+tracks/173/path = NodePath("Head/Camera3D/hand/Gun/m_button1_low:rotation")
 tracks/173/interp = 1
 tracks/173/loop_wrap = true
 tracks/173/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, -1.16415e-07, 0)]
 }
 tracks/174/type = "value"
 tracks/174/imported = false
 tracks/174/enabled = true
-tracks/174/path = NodePath("Head/Camera3D/hand/Gun/m_button1_low:rotation")
+tracks/174/path = NodePath("Head/Camera3D/hand/Gun/m_button1_low/m_button1_low_Material #44_0:rotation")
 tracks/174/interp = 1
 tracks/174/loop_wrap = true
 tracks/174/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, -1.16415e-07, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/175/type = "value"
 tracks/175/imported = false
 tracks/175/enabled = true
-tracks/175/path = NodePath("Head/Camera3D/hand/Gun/m_button1_low/m_button1_low_Material #44_0:rotation")
+tracks/175/path = NodePath("Head/Camera3D/hand/Gun/r_numberSwitch_low:rotation")
 tracks/175/interp = 1
 tracks/175/loop_wrap = true
 tracks/175/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 4.36557e-08, 0)]
 }
 tracks/176/type = "value"
 tracks/176/imported = false
 tracks/176/enabled = true
-tracks/176/path = NodePath("Head/Camera3D/hand/Gun/r_numberSwitch_low:rotation")
+tracks/176/path = NodePath("Head/Camera3D/hand/Gun/r_numberSwitch_low/r_numberSwitch_low_Material #44_0:rotation")
 tracks/176/interp = 1
 tracks/176/loop_wrap = true
 tracks/176/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 4.36557e-08, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/177/type = "value"
 tracks/177/imported = false
 tracks/177/enabled = true
-tracks/177/path = NodePath("Head/Camera3D/hand/Gun/r_numberSwitch_low/r_numberSwitch_low_Material #44_0:rotation")
+tracks/177/path = NodePath("Head/Camera3D/hand/Gun/r_numberSwitchButton_low:rotation")
 tracks/177/interp = 1
 tracks/177/loop_wrap = true
 tracks/177/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 4.36557e-08, 0)]
 }
 tracks/178/type = "value"
 tracks/178/imported = false
 tracks/178/enabled = true
-tracks/178/path = NodePath("Head/Camera3D/hand/Gun/r_numberSwitchButton_low:rotation")
+tracks/178/path = NodePath("Head/Camera3D/hand/Gun/r_numberSwitchButton_low/r_numberSwitchButton_low_Material #44_0:rotation")
 tracks/178/interp = 1
 tracks/178/loop_wrap = true
 tracks/178/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 4.36557e-08, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/179/type = "value"
 tracks/179/imported = false
 tracks/179/enabled = true
-tracks/179/path = NodePath("Head/Camera3D/hand/Gun/r_numberSwitchButton_low/r_numberSwitchButton_low_Material #44_0:rotation")
+tracks/179/path = NodePath("Head/Camera3D/hand/Gun/ur_numberHolder1:rotation")
 tracks/179/interp = 1
 tracks/179/loop_wrap = true
 tracks/179/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 4.36557e-08, 0)]
 }
 tracks/180/type = "value"
 tracks/180/imported = false
 tracks/180/enabled = true
-tracks/180/path = NodePath("Head/Camera3D/hand/Gun/ur_numberHolder1:rotation")
+tracks/180/path = NodePath("Head/Camera3D/hand/Gun/ur_numberHolder1/ur_numberHolder1_Material #44_0:rotation")
 tracks/180/interp = 1
 tracks/180/loop_wrap = true
 tracks/180/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 4.36557e-08, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/181/type = "value"
 tracks/181/imported = false
 tracks/181/enabled = true
-tracks/181/path = NodePath("Head/Camera3D/hand/Gun/ur_numberHolder1/ur_numberHolder1_Material #44_0:rotation")
+tracks/181/path = NodePath("Head/Camera3D/hand/Gun/r_numberBaseCircle_low:rotation")
 tracks/181/interp = 1
 tracks/181/loop_wrap = true
 tracks/181/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 4.36557e-08, 0)]
 }
 tracks/182/type = "value"
 tracks/182/imported = false
 tracks/182/enabled = true
-tracks/182/path = NodePath("Head/Camera3D/hand/Gun/r_numberBaseCircle_low:rotation")
+tracks/182/path = NodePath("Head/Camera3D/hand/Gun/r_numberBaseCircle_low/r_numberBaseCircle_low_Material #44_0:rotation")
 tracks/182/interp = 1
 tracks/182/loop_wrap = true
 tracks/182/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 4.36557e-08, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/183/type = "value"
 tracks/183/imported = false
 tracks/183/enabled = true
-tracks/183/path = NodePath("Head/Camera3D/hand/Gun/r_numberBaseCircle_low/r_numberBaseCircle_low_Material #44_0:rotation")
+tracks/183/path = NodePath("Head/Camera3D/hand/Gun/ur_woodUpper_low:rotation")
 tracks/183/interp = 1
 tracks/183/loop_wrap = true
 tracks/183/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 2.61934e-07, 0)]
 }
 tracks/184/type = "value"
 tracks/184/imported = false
 tracks/184/enabled = true
-tracks/184/path = NodePath("Head/Camera3D/hand/Gun/ur_woodUpper_low:rotation")
+tracks/184/path = NodePath("Head/Camera3D/hand/Gun/ur_woodUpper_low/ur_woodUpper_low_Material #44_0:rotation")
 tracks/184/interp = 1
 tracks/184/loop_wrap = true
 tracks/184/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 2.61934e-07, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/185/type = "value"
 tracks/185/imported = false
 tracks/185/enabled = true
-tracks/185/path = NodePath("Head/Camera3D/hand/Gun/ur_woodUpper_low/ur_woodUpper_low_Material #44_0:rotation")
+tracks/185/path = NodePath("Head/Camera3D/hand/Gun/r_Connector_low:rotation")
 tracks/185/interp = 1
 tracks/185/loop_wrap = true
 tracks/185/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 4.36557e-08, 0)]
 }
 tracks/186/type = "value"
 tracks/186/imported = false
 tracks/186/enabled = true
-tracks/186/path = NodePath("Head/Camera3D/hand/Gun/r_Connector_low:rotation")
+tracks/186/path = NodePath("Head/Camera3D/hand/Gun/r_Connector_low/r_Connector_low_Material #44_0:rotation")
 tracks/186/interp = 1
 tracks/186/loop_wrap = true
 tracks/186/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 4.36557e-08, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/187/type = "value"
 tracks/187/imported = false
 tracks/187/enabled = true
-tracks/187/path = NodePath("Head/Camera3D/hand/Gun/r_Connector_low/r_Connector_low_Material #44_0:rotation")
+tracks/187/path = NodePath("Head/Camera3D/hand/Gun/r_woodholderLowerRight_low:rotation")
 tracks/187/interp = 1
 tracks/187/loop_wrap = true
 tracks/187/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 4.36557e-08, 0)]
 }
 tracks/188/type = "value"
 tracks/188/imported = false
 tracks/188/enabled = true
-tracks/188/path = NodePath("Head/Camera3D/hand/Gun/r_woodholderLowerRight_low:rotation")
+tracks/188/path = NodePath("Head/Camera3D/hand/Gun/r_woodholderLowerRight_low/r_woodholderLowerRight_low_Material #44_0:rotation")
 tracks/188/interp = 1
 tracks/188/loop_wrap = true
 tracks/188/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 4.36557e-08, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/189/type = "value"
 tracks/189/imported = false
 tracks/189/enabled = true
-tracks/189/path = NodePath("Head/Camera3D/hand/Gun/r_woodholderLowerRight_low/r_woodholderLowerRight_low_Material #44_0:rotation")
+tracks/189/path = NodePath("Head/Camera3D/hand/Gun/r_barrelAim_low:rotation")
 tracks/189/interp = 1
 tracks/189/loop_wrap = true
 tracks/189/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 4.36557e-08, 0)]
 }
 tracks/190/type = "value"
 tracks/190/imported = false
 tracks/190/enabled = true
-tracks/190/path = NodePath("Head/Camera3D/hand/Gun/r_barrelAim_low:rotation")
+tracks/190/path = NodePath("Head/Camera3D/hand/Gun/r_barrelAim_low/r_barrelAim_low_Material #44_0:rotation")
 tracks/190/interp = 1
 tracks/190/loop_wrap = true
 tracks/190/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 4.36557e-08, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/191/type = "value"
 tracks/191/imported = false
 tracks/191/enabled = true
-tracks/191/path = NodePath("Head/Camera3D/hand/Gun/r_barrelAim_low/r_barrelAim_low_Material #44_0:rotation")
+tracks/191/path = NodePath("Head/Camera3D/hand/Gun/r_barrelAimCylinder_low:rotation")
 tracks/191/interp = 1
 tracks/191/loop_wrap = true
 tracks/191/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 4.36557e-08, 0)]
 }
 tracks/192/type = "value"
 tracks/192/imported = false
 tracks/192/enabled = true
-tracks/192/path = NodePath("Head/Camera3D/hand/Gun/r_barrelAimCylinder_low:rotation")
+tracks/192/path = NodePath("Head/Camera3D/hand/Gun/r_barrelAimCylinder_low/r_barrelAimCylinder_low_Material #44_0:rotation")
 tracks/192/interp = 1
 tracks/192/loop_wrap = true
 tracks/192/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 4.36557e-08, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/193/type = "value"
 tracks/193/imported = false
 tracks/193/enabled = true
-tracks/193/path = NodePath("Head/Camera3D/hand/Gun/r_barrelAimCylinder_low/r_barrelAimCylinder_low_Material #44_0:rotation")
+tracks/193/path = NodePath("Head/Camera3D/hand/Gun/r_barrelEnd_low:rotation")
 tracks/193/interp = 1
 tracks/193/loop_wrap = true
 tracks/193/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 4.36557e-08, 0)]
 }
 tracks/194/type = "value"
 tracks/194/imported = false
 tracks/194/enabled = true
-tracks/194/path = NodePath("Head/Camera3D/hand/Gun/r_barrelEnd_low:rotation")
+tracks/194/path = NodePath("Head/Camera3D/hand/Gun/r_barrelEnd_low/r_barrelEnd_low_Material #44_0:rotation")
 tracks/194/interp = 1
 tracks/194/loop_wrap = true
 tracks/194/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 4.36557e-08, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/195/type = "value"
 tracks/195/imported = false
 tracks/195/enabled = true
-tracks/195/path = NodePath("Head/Camera3D/hand/Gun/r_barrelEnd_low/r_barrelEnd_low_Material #44_0:rotation")
+tracks/195/path = NodePath("Head/Camera3D/hand/Gun/r_barrelHolder_low:rotation")
 tracks/195/interp = 1
 tracks/195/loop_wrap = true
 tracks/195/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 4.36557e-08, 0)]
 }
 tracks/196/type = "value"
 tracks/196/imported = false
 tracks/196/enabled = true
-tracks/196/path = NodePath("Head/Camera3D/hand/Gun/r_barrelHolder_low:rotation")
+tracks/196/path = NodePath("Head/Camera3D/hand/Gun/r_barrelHolder_low/r_barrelHolder_low_Material #44_0:rotation")
 tracks/196/interp = 1
 tracks/196/loop_wrap = true
 tracks/196/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 4.36557e-08, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/197/type = "value"
 tracks/197/imported = false
 tracks/197/enabled = true
-tracks/197/path = NodePath("Head/Camera3D/hand/Gun/r_barrelHolder_low/r_barrelHolder_low_Material #44_0:rotation")
+tracks/197/path = NodePath("Head/Camera3D/hand/Gun/bm_triggerBase_low:rotation")
 tracks/197/interp = 1
 tracks/197/loop_wrap = true
 tracks/197/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 4.36557e-08, 0)]
 }
 tracks/198/type = "value"
 tracks/198/imported = false
 tracks/198/enabled = true
-tracks/198/path = NodePath("Head/Camera3D/hand/Gun/bm_triggerBase_low:rotation")
+tracks/198/path = NodePath("Head/Camera3D/hand/Gun/bm_triggerBase_low/bm_triggerBase_low_Material #44_0:rotation")
 tracks/198/interp = 1
 tracks/198/loop_wrap = true
 tracks/198/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 4.36557e-08, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/199/type = "value"
 tracks/199/imported = false
 tracks/199/enabled = true
-tracks/199/path = NodePath("Head/Camera3D/hand/Gun/bm_triggerBase_low/bm_triggerBase_low_Material #44_0:rotation")
+tracks/199/path = NodePath("Head/Camera3D/hand/Gun/r_lowerCylinder_low:rotation")
 tracks/199/interp = 1
 tracks/199/loop_wrap = true
 tracks/199/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 4.36557e-08, 0)]
 }
 tracks/200/type = "value"
 tracks/200/imported = false
 tracks/200/enabled = true
-tracks/200/path = NodePath("Head/Camera3D/hand/Gun/r_lowerCylinder_low:rotation")
+tracks/200/path = NodePath("Head/Camera3D/hand/Gun/r_lowerCylinder_low/r_lowerCylinder_low_Material #44_0:rotation")
 tracks/200/interp = 1
 tracks/200/loop_wrap = true
 tracks/200/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 4.36557e-08, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/201/type = "value"
 tracks/201/imported = false
 tracks/201/enabled = true
-tracks/201/path = NodePath("Head/Camera3D/hand/Gun/r_lowerCylinder_low/r_lowerCylinder_low_Material #44_0:rotation")
+tracks/201/path = NodePath("Head/Camera3D/hand/Gun/r_barrel_low:rotation")
 tracks/201/interp = 1
 tracks/201/loop_wrap = true
 tracks/201/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 4.36557e-08, 0)]
 }
 tracks/202/type = "value"
 tracks/202/imported = false
 tracks/202/enabled = true
-tracks/202/path = NodePath("Head/Camera3D/hand/Gun/r_barrel_low:rotation")
+tracks/202/path = NodePath("Head/Camera3D/hand/Gun/r_barrel_low/r_barrel_low_Material #44_0:rotation")
 tracks/202/interp = 1
 tracks/202/loop_wrap = true
 tracks/202/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 4.36557e-08, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/203/type = "value"
 tracks/203/imported = false
 tracks/203/enabled = true
-tracks/203/path = NodePath("Head/Camera3D/hand/Gun/r_barrel_low/r_barrel_low_Material #44_0:rotation")
+tracks/203/path = NodePath("Head/Camera3D/hand/Gun/l_stockMetal_low:rotation")
 tracks/203/interp = 1
 tracks/203/loop_wrap = true
 tracks/203/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 4.36557e-08, 0)]
 }
 tracks/204/type = "value"
 tracks/204/imported = false
 tracks/204/enabled = true
-tracks/204/path = NodePath("Head/Camera3D/hand/Gun/l_stockMetal_low:rotation")
+tracks/204/path = NodePath("Head/Camera3D/hand/Gun/l_stockMetal_low/l_stockMetal_low_Material #44_0:rotation")
 tracks/204/interp = 1
 tracks/204/loop_wrap = true
 tracks/204/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 4.36557e-08, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/205/type = "value"
 tracks/205/imported = false
 tracks/205/enabled = true
-tracks/205/path = NodePath("Head/Camera3D/hand/Gun/l_stockMetal_low/l_stockMetal_low_Material #44_0:rotation")
+tracks/205/path = NodePath("Head/Camera3D/hand/Gun/l_stockBase_low:rotation")
 tracks/205/interp = 1
 tracks/205/loop_wrap = true
 tracks/205/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 4.36557e-08, 0)]
 }
 tracks/206/type = "value"
 tracks/206/imported = false
 tracks/206/enabled = true
-tracks/206/path = NodePath("Head/Camera3D/hand/Gun/l_stockBase_low:rotation")
+tracks/206/path = NodePath("Head/Camera3D/hand/Gun/l_stockBase_low/l_stockBase_low_Material #44_0:rotation")
 tracks/206/interp = 1
 tracks/206/loop_wrap = true
 tracks/206/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 4.36557e-08, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/207/type = "value"
 tracks/207/imported = false
 tracks/207/enabled = true
-tracks/207/path = NodePath("Head/Camera3D/hand/Gun/l_stockBase_low/l_stockBase_low_Material #44_0:rotation")
+tracks/207/path = NodePath("Head/Camera3D/hand/Gun/bm_magazineBottom_low:rotation")
 tracks/207/interp = 1
 tracks/207/loop_wrap = true
 tracks/207/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 4.36557e-08, 0)]
 }
 tracks/208/type = "value"
 tracks/208/imported = false
 tracks/208/enabled = true
-tracks/208/path = NodePath("Head/Camera3D/hand/Gun/bm_magazineBottom_low:rotation")
+tracks/208/path = NodePath("Head/Camera3D/hand/Gun/bm_magazineBottom_low/bm_magazineBottom_low_Material #44_0:rotation")
 tracks/208/interp = 1
 tracks/208/loop_wrap = true
 tracks/208/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 4.36557e-08, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/209/type = "value"
 tracks/209/imported = false
 tracks/209/enabled = true
-tracks/209/path = NodePath("Head/Camera3D/hand/Gun/bm_magazineBottom_low/bm_magazineBottom_low_Material #44_0:rotation")
+tracks/209/path = NodePath("Head/Camera3D/hand/Gun/r_woodholderLeft_low:rotation")
 tracks/209/interp = 1
 tracks/209/loop_wrap = true
 tracks/209/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 4.36557e-08, 0)]
 }
 tracks/210/type = "value"
 tracks/210/imported = false
 tracks/210/enabled = true
-tracks/210/path = NodePath("Head/Camera3D/hand/Gun/r_woodholderLeft_low:rotation")
+tracks/210/path = NodePath("Head/Camera3D/hand/Gun/r_woodholderLeft_low/r_woodholderLeft_low_Material #44_0:rotation")
 tracks/210/interp = 1
 tracks/210/loop_wrap = true
 tracks/210/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 4.36557e-08, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/211/type = "value"
 tracks/211/imported = false
 tracks/211/enabled = true
-tracks/211/path = NodePath("Head/Camera3D/hand/Gun/r_woodholderLeft_low/r_woodholderLeft_low_Material #44_0:rotation")
+tracks/211/path = NodePath("Head/Camera3D/hand/Gun/r_woodholderUpperRight_low:rotation")
 tracks/211/interp = 1
 tracks/211/loop_wrap = true
 tracks/211/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 4.36557e-08, 0)]
 }
 tracks/212/type = "value"
 tracks/212/imported = false
 tracks/212/enabled = true
-tracks/212/path = NodePath("Head/Camera3D/hand/Gun/r_woodholderUpperRight_low:rotation")
+tracks/212/path = NodePath("Head/Camera3D/hand/Gun/r_woodholderUpperRight_low/r_woodholderUpperRight_low_Material #44_0:rotation")
 tracks/212/interp = 1
 tracks/212/loop_wrap = true
 tracks/212/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 4.36557e-08, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/213/type = "value"
 tracks/213/imported = false
 tracks/213/enabled = true
-tracks/213/path = NodePath("Head/Camera3D/hand/Gun/r_woodholderUpperRight_low/r_woodholderUpperRight_low_Material #44_0:rotation")
+tracks/213/path = NodePath("Head/Camera3D/hand/Gun/r_woodholder_low:rotation")
 tracks/213/interp = 1
 tracks/213/loop_wrap = true
 tracks/213/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 4.36557e-08, 0)]
 }
 tracks/214/type = "value"
 tracks/214/imported = false
 tracks/214/enabled = true
-tracks/214/path = NodePath("Head/Camera3D/hand/Gun/r_woodholder_low:rotation")
+tracks/214/path = NodePath("Head/Camera3D/hand/Gun/r_woodholder_low/r_woodholder_low_Material #44_0:rotation")
 tracks/214/interp = 1
 tracks/214/loop_wrap = true
 tracks/214/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 4.36557e-08, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/215/type = "value"
 tracks/215/imported = false
 tracks/215/enabled = true
-tracks/215/path = NodePath("Head/Camera3D/hand/Gun/r_woodholder_low/r_woodholder_low_Material #44_0:rotation")
+tracks/215/path = NodePath("Head/Camera3D/hand/Gun/r_connectorPart2_low:rotation")
 tracks/215/interp = 1
 tracks/215/loop_wrap = true
 tracks/215/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 4.36557e-08, 0)]
 }
 tracks/216/type = "value"
 tracks/216/imported = false
 tracks/216/enabled = true
-tracks/216/path = NodePath("Head/Camera3D/hand/Gun/r_connectorPart2_low:rotation")
+tracks/216/path = NodePath("Head/Camera3D/hand/Gun/r_connectorPart2_low/r_connectorPart2_low_Material #44_0:rotation")
 tracks/216/interp = 1
 tracks/216/loop_wrap = true
 tracks/216/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 4.36557e-08, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/217/type = "value"
 tracks/217/imported = false
 tracks/217/enabled = true
-tracks/217/path = NodePath("Head/Camera3D/hand/Gun/r_connectorPart2_low/r_connectorPart2_low_Material #44_0:rotation")
+tracks/217/path = NodePath("Head/Camera3D/hand/Gun/r_connectorPart1_low:rotation")
 tracks/217/interp = 1
 tracks/217/loop_wrap = true
 tracks/217/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 4.36557e-08, 0)]
 }
 tracks/218/type = "value"
 tracks/218/imported = false
 tracks/218/enabled = true
-tracks/218/path = NodePath("Head/Camera3D/hand/Gun/r_connectorPart1_low:rotation")
+tracks/218/path = NodePath("Head/Camera3D/hand/Gun/r_connectorPart1_low/r_connectorPart1_low_Material #44_0:rotation")
 tracks/218/interp = 1
 tracks/218/loop_wrap = true
 tracks/218/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 4.36557e-08, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/219/type = "value"
 tracks/219/imported = false
 tracks/219/enabled = true
-tracks/219/path = NodePath("Head/Camera3D/hand/Gun/r_connectorPart1_low/r_connectorPart1_low_Material #44_0:rotation")
+tracks/219/path = NodePath("Head/Camera3D/hand/Gun/m_base_low:rotation")
 tracks/219/interp = 1
 tracks/219/loop_wrap = true
 tracks/219/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 4.36557e-08, 0)]
 }
 tracks/220/type = "value"
 tracks/220/imported = false
 tracks/220/enabled = true
-tracks/220/path = NodePath("Head/Camera3D/hand/Gun/m_base_low:rotation")
+tracks/220/path = NodePath("Head/Camera3D/hand/Gun/m_base_low/m_base_low_Material #44_0:rotation")
 tracks/220/interp = 1
 tracks/220/loop_wrap = true
 tracks/220/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 4.36557e-08, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/221/type = "value"
 tracks/221/imported = false
 tracks/221/enabled = true
-tracks/221/path = NodePath("Head/Camera3D/hand/Gun/m_base_low/m_base_low_Material #44_0:rotation")
+tracks/221/path = NodePath("Head/Camera3D/hand/Gun/bm_trigger_low:rotation")
 tracks/221/interp = 1
 tracks/221/loop_wrap = true
 tracks/221/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 4.36557e-08, 0)]
 }
 tracks/222/type = "value"
 tracks/222/imported = false
 tracks/222/enabled = true
-tracks/222/path = NodePath("Head/Camera3D/hand/Gun/bm_trigger_low:rotation")
+tracks/222/path = NodePath("Head/Camera3D/hand/Gun/bm_trigger_low/bm_trigger_low_Material #44_0:rotation")
 tracks/222/interp = 1
 tracks/222/loop_wrap = true
 tracks/222/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 4.36557e-08, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/223/type = "value"
 tracks/223/imported = false
 tracks/223/enabled = true
-tracks/223/path = NodePath("Head/Camera3D/hand/Gun/bm_trigger_low/bm_trigger_low_Material #44_0:rotation")
+tracks/223/path = NodePath("Head/Camera3D/hand/Gun/bm_magazinePart3_low:rotation")
 tracks/223/interp = 1
 tracks/223/loop_wrap = true
 tracks/223/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 4.36557e-08, 0)]
 }
 tracks/224/type = "value"
 tracks/224/imported = false
 tracks/224/enabled = true
-tracks/224/path = NodePath("Head/Camera3D/hand/Gun/bm_magazinePart3_low:rotation")
+tracks/224/path = NodePath("Head/Camera3D/hand/Gun/bm_magazinePart3_low/bm_magazinePart3_low_Material #44_0:rotation")
 tracks/224/interp = 1
 tracks/224/loop_wrap = true
 tracks/224/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 4.36557e-08, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/225/type = "value"
 tracks/225/imported = false
 tracks/225/enabled = true
-tracks/225/path = NodePath("Head/Camera3D/hand/Gun/bm_magazinePart3_low/bm_magazinePart3_low_Material #44_0:rotation")
+tracks/225/path = NodePath("Head/Camera3D/hand/Gun/bm_magazinePart1_low:rotation")
 tracks/225/interp = 1
 tracks/225/loop_wrap = true
 tracks/225/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 4.36557e-08, 0)]
 }
 tracks/226/type = "value"
 tracks/226/imported = false
 tracks/226/enabled = true
-tracks/226/path = NodePath("Head/Camera3D/hand/Gun/bm_magazinePart1_low:rotation")
+tracks/226/path = NodePath("Head/Camera3D/hand/Gun/bm_magazinePart1_low/bm_magazinePart1_low_Material #44_0:rotation")
 tracks/226/interp = 1
 tracks/226/loop_wrap = true
 tracks/226/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 4.36557e-08, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/227/type = "value"
 tracks/227/imported = false
 tracks/227/enabled = true
-tracks/227/path = NodePath("Head/Camera3D/hand/Gun/bm_magazinePart1_low/bm_magazinePart1_low_Material #44_0:rotation")
+tracks/227/path = NodePath("Head/Camera3D/hand/Gun/u_dustcover_low:rotation")
 tracks/227/interp = 1
 tracks/227/loop_wrap = true
 tracks/227/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 4.36557e-08, 0)]
 }
 tracks/228/type = "value"
 tracks/228/imported = false
 tracks/228/enabled = true
-tracks/228/path = NodePath("Head/Camera3D/hand/Gun/u_dustcover_low:rotation")
+tracks/228/path = NodePath("Head/Camera3D/hand/Gun/u_dustcover_low/u_dustcover_low_Material #44_0:rotation")
 tracks/228/interp = 1
 tracks/228/loop_wrap = true
 tracks/228/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 4.36557e-08, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/229/type = "value"
 tracks/229/imported = false
 tracks/229/enabled = true
-tracks/229/path = NodePath("Head/Camera3D/hand/Gun/u_dustcover_low/u_dustcover_low_Material #44_0:rotation")
+tracks/229/path = NodePath("Head/Camera3D/hand/Gun/ul_dustcoverScroll_low:rotation")
 tracks/229/interp = 1
 tracks/229/loop_wrap = true
 tracks/229/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 4.36557e-08, 0)]
 }
 tracks/230/type = "value"
 tracks/230/imported = false
 tracks/230/enabled = true
-tracks/230/path = NodePath("Head/Camera3D/hand/Gun/ul_dustcoverScroll_low:rotation")
+tracks/230/path = NodePath("Head/Camera3D/hand/Gun/ul_dustcoverScroll_low/ul_dustcoverScroll_low_Material #44_0:rotation")
 tracks/230/interp = 1
 tracks/230/loop_wrap = true
 tracks/230/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 4.36557e-08, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/231/type = "value"
 tracks/231/imported = false
 tracks/231/enabled = true
-tracks/231/path = NodePath("Head/Camera3D/hand/Gun/ul_dustcoverScroll_low/ul_dustcoverScroll_low_Material #44_0:rotation")
+tracks/231/path = NodePath("Head/Camera3D/hand/Gun/r_baseNumber1_low:rotation")
 tracks/231/interp = 1
 tracks/231/loop_wrap = true
 tracks/231/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 4.36557e-08, 0)]
 }
 tracks/232/type = "value"
 tracks/232/imported = false
 tracks/232/enabled = true
-tracks/232/path = NodePath("Head/Camera3D/hand/Gun/r_baseNumber1_low:rotation")
+tracks/232/path = NodePath("Head/Camera3D/hand/Gun/r_baseNumber1_low/r_baseNumber1_low_Material #44_0:rotation")
 tracks/232/interp = 1
 tracks/232/loop_wrap = true
 tracks/232/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 4.36557e-08, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/233/type = "value"
 tracks/233/imported = false
 tracks/233/enabled = true
-tracks/233/path = NodePath("Head/Camera3D/hand/Gun/r_baseNumber1_low/r_baseNumber1_low_Material #44_0:rotation")
+tracks/233/path = NodePath("Head/Camera3D/hand/Gun/r_numberBase_low:rotation")
 tracks/233/interp = 1
 tracks/233/loop_wrap = true
 tracks/233/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 4.36557e-08, 0)]
 }
 tracks/234/type = "value"
 tracks/234/imported = false
 tracks/234/enabled = true
-tracks/234/path = NodePath("Head/Camera3D/hand/Gun/r_numberBase_low:rotation")
+tracks/234/path = NodePath("Head/Camera3D/hand/Gun/r_numberBase_low/r_numberBase_low_Material #44_0:rotation")
 tracks/234/interp = 1
 tracks/234/loop_wrap = true
 tracks/234/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 4.36557e-08, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/235/type = "value"
 tracks/235/imported = false
 tracks/235/enabled = true
-tracks/235/path = NodePath("Head/Camera3D/hand/Gun/r_numberBase_low/r_numberBase_low_Material #44_0:rotation")
+tracks/235/path = NodePath("Head/Camera3D/hand/Gun/ur_numberBase2_low:rotation")
 tracks/235/interp = 1
 tracks/235/loop_wrap = true
 tracks/235/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 4.36557e-08, 0)]
 }
 tracks/236/type = "value"
 tracks/236/imported = false
 tracks/236/enabled = true
-tracks/236/path = NodePath("Head/Camera3D/hand/Gun/ur_numberBase2_low:rotation")
+tracks/236/path = NodePath("Head/Camera3D/hand/Gun/ur_numberBase2_low/ur_numberBase2_low_Material #44_0:rotation")
 tracks/236/interp = 1
 tracks/236/loop_wrap = true
 tracks/236/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 4.36557e-08, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/237/type = "value"
 tracks/237/imported = false
 tracks/237/enabled = true
-tracks/237/path = NodePath("Head/Camera3D/hand/Gun/ur_numberBase2_low/ur_numberBase2_low_Material #44_0:rotation")
+tracks/237/path = NodePath("Head/Camera3D/hand/Gun/ur_number_low:rotation")
 tracks/237/interp = 1
 tracks/237/loop_wrap = true
 tracks/237/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 4.36557e-08, 0)]
 }
 tracks/238/type = "value"
 tracks/238/imported = false
 tracks/238/enabled = true
-tracks/238/path = NodePath("Head/Camera3D/hand/Gun/ur_number_low:rotation")
+tracks/238/path = NodePath("Head/Camera3D/hand/Gun/ur_number_low/ur_number_low_Material #44_0:rotation")
 tracks/238/interp = 1
 tracks/238/loop_wrap = true
 tracks/238/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 4.36557e-08, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/239/type = "value"
 tracks/239/imported = false
 tracks/239/enabled = true
-tracks/239/path = NodePath("Head/Camera3D/hand/Gun/ur_number_low/ur_number_low_Material #44_0:rotation")
+tracks/239/path = NodePath("Head/Camera3D/hand/Gun/l_beltHolder_low:rotation")
 tracks/239/interp = 1
 tracks/239/loop_wrap = true
 tracks/239/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 4.36557e-08, 0)]
 }
 tracks/240/type = "value"
 tracks/240/imported = false
 tracks/240/enabled = true
-tracks/240/path = NodePath("Head/Camera3D/hand/Gun/l_beltHolder_low:rotation")
+tracks/240/path = NodePath("Head/Camera3D/hand/Gun/l_beltHolder_low/l_beltHolder_low_Material #44_0:rotation")
 tracks/240/interp = 1
 tracks/240/loop_wrap = true
 tracks/240/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 4.36557e-08, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/241/type = "value"
 tracks/241/imported = false
 tracks/241/enabled = true
-tracks/241/path = NodePath("Head/Camera3D/hand/Gun/l_beltHolder_low/l_beltHolder_low_Material #44_0:rotation")
+tracks/241/path = NodePath("Head/Camera3D/hand/Gun/l_belt_low:rotation")
 tracks/241/interp = 1
 tracks/241/loop_wrap = true
 tracks/241/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 4.36557e-08, 0)]
 }
 tracks/242/type = "value"
 tracks/242/imported = false
 tracks/242/enabled = true
-tracks/242/path = NodePath("Head/Camera3D/hand/Gun/l_belt_low:rotation")
+tracks/242/path = NodePath("Head/Camera3D/hand/Gun/l_belt_low/l_belt_low_Material #44_0:rotation")
 tracks/242/interp = 1
 tracks/242/loop_wrap = true
 tracks/242/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 4.36557e-08, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/243/type = "value"
 tracks/243/imported = false
 tracks/243/enabled = true
-tracks/243/path = NodePath("Head/Camera3D/hand/Gun/l_belt_low/l_belt_low_Material #44_0:rotation")
+tracks/243/path = NodePath("Head/Camera3D/hand/Gun/l_stockScrew_low:rotation")
 tracks/243/interp = 1
 tracks/243/loop_wrap = true
 tracks/243/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 4.36557e-08, 0)]
 }
 tracks/244/type = "value"
 tracks/244/imported = false
 tracks/244/enabled = true
-tracks/244/path = NodePath("Head/Camera3D/hand/Gun/l_stockScrew_low:rotation")
+tracks/244/path = NodePath("Head/Camera3D/hand/Gun/l_stockScrew_low/l_stockScrew_low_Material #44_0:rotation")
 tracks/244/interp = 1
 tracks/244/loop_wrap = true
 tracks/244/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 4.36557e-08, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/245/type = "value"
 tracks/245/imported = false
 tracks/245/enabled = true
-tracks/245/path = NodePath("Head/Camera3D/hand/Gun/l_stockScrew_low/l_stockScrew_low_Material #44_0:rotation")
+tracks/245/path = NodePath("Head/Camera3D/hand/Gun/bm_triggerBaseButton4_low:rotation")
 tracks/245/interp = 1
 tracks/245/loop_wrap = true
 tracks/245/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 4.36557e-08, 0)]
 }
 tracks/246/type = "value"
 tracks/246/imported = false
 tracks/246/enabled = true
-tracks/246/path = NodePath("Head/Camera3D/hand/Gun/bm_triggerBaseButton4_low:rotation")
+tracks/246/path = NodePath("Head/Camera3D/hand/Gun/bm_triggerBaseButton4_low/bm_triggerBaseButton4_low_Material #44_0:rotation")
 tracks/246/interp = 1
 tracks/246/loop_wrap = true
 tracks/246/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 4.36557e-08, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/247/type = "value"
 tracks/247/imported = false
 tracks/247/enabled = true
-tracks/247/path = NodePath("Head/Camera3D/hand/Gun/bm_triggerBaseButton4_low/bm_triggerBaseButton4_low_Material #44_0:rotation")
+tracks/247/path = NodePath("Head/Camera3D/hand/Gun/bm_triggerBaseButton3_low:rotation")
 tracks/247/interp = 1
 tracks/247/loop_wrap = true
 tracks/247/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 4.36557e-08, 0)]
 }
 tracks/248/type = "value"
 tracks/248/imported = false
 tracks/248/enabled = true
-tracks/248/path = NodePath("Head/Camera3D/hand/Gun/bm_triggerBaseButton3_low:rotation")
+tracks/248/path = NodePath("Head/Camera3D/hand/Gun/bm_triggerBaseButton3_low/bm_triggerBaseButton3_low_Material #44_0:rotation")
 tracks/248/interp = 1
 tracks/248/loop_wrap = true
 tracks/248/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 4.36557e-08, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/249/type = "value"
 tracks/249/imported = false
 tracks/249/enabled = true
-tracks/249/path = NodePath("Head/Camera3D/hand/Gun/bm_triggerBaseButton3_low/bm_triggerBaseButton3_low_Material #44_0:rotation")
+tracks/249/path = NodePath("Head/Camera3D/hand/Gun/bm_triggerBaseButton2_low:rotation")
 tracks/249/interp = 1
 tracks/249/loop_wrap = true
 tracks/249/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 4.36557e-08, 0)]
 }
 tracks/250/type = "value"
 tracks/250/imported = false
 tracks/250/enabled = true
-tracks/250/path = NodePath("Head/Camera3D/hand/Gun/bm_triggerBaseButton2_low:rotation")
+tracks/250/path = NodePath("Head/Camera3D/hand/Gun/bm_triggerBaseButton2_low/bm_triggerBaseButton2_low_Material #44_0:rotation")
 tracks/250/interp = 1
 tracks/250/loop_wrap = true
 tracks/250/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 4.36557e-08, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/251/type = "value"
 tracks/251/imported = false
 tracks/251/enabled = true
-tracks/251/path = NodePath("Head/Camera3D/hand/Gun/bm_triggerBaseButton2_low/bm_triggerBaseButton2_low_Material #44_0:rotation")
+tracks/251/path = NodePath("Head/Camera3D/hand/Gun/bm_triggerBaseButton1_low:rotation")
 tracks/251/interp = 1
 tracks/251/loop_wrap = true
 tracks/251/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 4.36557e-08, 0)]
 }
 tracks/252/type = "value"
 tracks/252/imported = false
 tracks/252/enabled = true
-tracks/252/path = NodePath("Head/Camera3D/hand/Gun/bm_triggerBaseButton1_low:rotation")
+tracks/252/path = NodePath("Head/Camera3D/hand/Gun/bm_triggerBaseButton1_low/bm_triggerBaseButton1_low_Material #44_0:rotation")
 tracks/252/interp = 1
 tracks/252/loop_wrap = true
 tracks/252/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 4.36557e-08, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/253/type = "value"
 tracks/253/imported = false
 tracks/253/enabled = true
-tracks/253/path = NodePath("Head/Camera3D/hand/Gun/bm_triggerBaseButton1_low/bm_triggerBaseButton1_low_Material #44_0:rotation")
+tracks/253/path = NodePath("Head/Camera3D/hand/Gun/r_baseNumber2_low:rotation")
 tracks/253/interp = 1
 tracks/253/loop_wrap = true
 tracks/253/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 4.36557e-08, 0)]
 }
 tracks/254/type = "value"
 tracks/254/imported = false
 tracks/254/enabled = true
-tracks/254/path = NodePath("Head/Camera3D/hand/Gun/r_baseNumber2_low:rotation")
+tracks/254/path = NodePath("Head/Camera3D/hand/Gun/r_baseNumber2_low/r_baseNumber2_low_Material #44_0:rotation")
 tracks/254/interp = 1
 tracks/254/loop_wrap = true
 tracks/254/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 4.36557e-08, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/255/type = "value"
 tracks/255/imported = false
 tracks/255/enabled = true
-tracks/255/path = NodePath("Head/Camera3D/hand/Gun/r_baseNumber2_low/r_baseNumber2_low_Material #44_0:rotation")
+tracks/255/path = NodePath("Head/Camera3D/hand/Gun/ur_numberHolder2:rotation")
 tracks/255/interp = 1
 tracks/255/loop_wrap = true
 tracks/255/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 4.36557e-08, 0)]
 }
 tracks/256/type = "value"
 tracks/256/imported = false
 tracks/256/enabled = true
-tracks/256/path = NodePath("Head/Camera3D/hand/Gun/ur_numberHolder2:rotation")
+tracks/256/path = NodePath("Head/Camera3D/hand/Gun/ur_numberHolder2/ur_numberHolder2_Material #44_0:rotation")
 tracks/256/interp = 1
 tracks/256/loop_wrap = true
 tracks/256/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 4.36557e-08, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/257/type = "value"
 tracks/257/imported = false
 tracks/257/enabled = true
-tracks/257/path = NodePath("Head/Camera3D/hand/Gun/ur_numberHolder2/ur_numberHolder2_Material #44_0:rotation")
+tracks/257/path = NodePath("Head/Camera3D/hand/Gun/r_woodLower_low:rotation")
 tracks/257/interp = 1
 tracks/257/loop_wrap = true
 tracks/257/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(1.16415e-07, 1.5708, 4.54747e-09)]
 }
 tracks/258/type = "value"
 tracks/258/imported = false
 tracks/258/enabled = true
-tracks/258/path = NodePath("Head/Camera3D/hand/Gun/r_woodLower_low:rotation")
+tracks/258/path = NodePath("Head/Camera3D/hand/Gun/r_woodLower_low/Object_130:rotation")
 tracks/258/interp = 1
 tracks/258/loop_wrap = true
 tracks/258/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(1.16415e-07, 1.5708, 4.54747e-09)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/259/type = "value"
 tracks/259/imported = false
 tracks/259/enabled = true
-tracks/259/path = NodePath("Head/Camera3D/hand/Gun/r_woodLower_low/Object_130:rotation")
+tracks/259/path = NodePath("Head/Camera3D/hand/Gun/r_woodLower_low/Object_130/r_woodLower_low_Material #44_0:rotation")
 tracks/259/interp = 1
 tracks/259/loop_wrap = true
 tracks/259/keys = {
@@ -11727,82 +11715,70 @@ tracks/259/keys = {
 tracks/260/type = "value"
 tracks/260/imported = false
 tracks/260/enabled = true
-tracks/260/path = NodePath("Head/Camera3D/hand/Gun/r_woodLower_low/Object_130/r_woodLower_low_Material #44_0:rotation")
+tracks/260/path = NodePath("Head/Camera3D/hand/Gun/bm_magazinePart2_low:rotation")
 tracks/260/interp = 1
 tracks/260/loop_wrap = true
 tracks/260/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-1.5708, 4.36557e-08, 0)]
 }
 tracks/261/type = "value"
 tracks/261/imported = false
 tracks/261/enabled = true
-tracks/261/path = NodePath("Head/Camera3D/hand/Gun/bm_magazinePart2_low:rotation")
+tracks/261/path = NodePath("Head/Camera3D/hand/Gun/bm_magazinePart2_low/bm_magazinePart2_low_Material #44_0:rotation")
 tracks/261/interp = 1
 tracks/261/loop_wrap = true
 tracks/261/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-1.5708, 4.36557e-08, 0)]
+"values": [Vector3(0, 0, 0)]
 }
 tracks/262/type = "value"
 tracks/262/imported = false
 tracks/262/enabled = true
-tracks/262/path = NodePath("Head/Camera3D/hand/Gun/bm_magazinePart2_low/bm_magazinePart2_low_Material #44_0:rotation")
+tracks/262/path = NodePath("Head/Camera3D/hand:position")
 tracks/262/interp = 1
 tracks/262/loop_wrap = true
 tracks/262/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(0, 0, 0)]
+"values": [Vector3(-0.437402, -1.43761, 4.58161)]
 }
 tracks/263/type = "value"
 tracks/263/imported = false
 tracks/263/enabled = true
-tracks/263/path = NodePath("Head/Camera3D/hand:position")
+tracks/263/path = NodePath("Head/Camera3D/hand/Gun:position")
 tracks/263/interp = 1
 tracks/263/loop_wrap = true
 tracks/263/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(-0.437402, -1.43761, 4.58161)]
+"values": [Vector3(5.47686, -0.0507504, -1.18857)]
 }
 tracks/264/type = "value"
 tracks/264/imported = false
 tracks/264/enabled = true
-tracks/264/path = NodePath("Head/Camera3D/hand/Gun:position")
+tracks/264/path = NodePath("Head/Camera3D/hand:rotation")
 tracks/264/interp = 1
 tracks/264/loop_wrap = true
 tracks/264/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
-"values": [Vector3(5.47686, -0.0507504, -1.18857)]
+"values": [Vector3(-0.0069219, 1.35623, 0.0747128)]
 }
 tracks/265/type = "value"
 tracks/265/imported = false
 tracks/265/enabled = true
-tracks/265/path = NodePath("Head/Camera3D/hand:rotation")
+tracks/265/path = NodePath("Head/Camera3D/hand/Gun:rotation")
 tracks/265/interp = 1
 tracks/265/loop_wrap = true
 tracks/265/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [Vector3(-0.0069219, 1.35623, 0.0747128)]
-}
-tracks/266/type = "value"
-tracks/266/imported = false
-tracks/266/enabled = true
-tracks/266/path = NodePath("Head/Camera3D/hand/Gun:rotation")
-tracks/266/interp = 1
-tracks/266/loop_wrap = true
-tracks/266/keys = {
 "times": PackedFloat32Array(0),
 "transitions": PackedFloat32Array(1),
 "update": 0,
@@ -12348,10 +12324,6 @@ transform = Transform3D(0.001, -4.36557e-11, -1.58033e-16, 0, -3.61999e-09, 0.00
 [node name="bm_magazinePart2_low_Material #44_0" type="MeshInstance3D" parent="Head/Camera3D/hand/Gun/bm_magazinePart2_low"]
 mesh = SubResource("ArrayMesh_fmkth")
 skeleton = NodePath("")
-
-[node name="RayCast3D" type="RayCast3D" parent="Head/Camera3D/hand"]
-transform = Transform3D(0.0209498, 0.0118599, -0.832988, 0.238177, 0.798387, 0.0173574, 0.7983, -0.238514, 0.0166816, 5.21771, 0.684505, -0.271286)
-target_position = Vector3(0, 0, -200)
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 libraries = {
